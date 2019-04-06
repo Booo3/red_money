@@ -1,0 +1,7 @@
+<materials version="3" group="showercurtain_tint_group">
+    <material name="showercurtain" render_template="generic:BLUE_MASK_TINT:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <variable value="0.53450983762741 0.67458826303482 0.93999999761581" type="vector3" name="tint_color"/>
+        <diffuse_texture file="units/world/props/apartment/showercurtain/showercurtain_df"/>
+        <bump_normal_texture file="units/world/props/apartment/showercurtain/showercurtain_nm"/>
+    </material>
+</materials>

@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="cords" decal_material="plastic" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/props/apartment/cords/cords_df"/>
+    </material>
+</materials>

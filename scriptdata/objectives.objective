@@ -1,0 +1,33 @@
+<table>
+	<objective description="red_money_loud_drill_001_desc" id="red_money_loud_drill_001" prio="1" text="red_money_loud_drill_001" xp_weight="1"/>
+	<objective description="red_money_loud_drill_002_desc" id="red_money_loud_drill_002" prio="1" text="red_money_loud_drill_002" xp_weight="1"/>
+	<objective description="red_money_loud_drill_003_desc" id="red_money_loud_drill_003" prio="1" text="red_money_loud_drill_003" xp_weight="1"/>
+	<objective description="red_money_open_vault_desc" id="red_money_open_vault" prio="1" text="red_money_open_vault" xp_weight="1"/>
+	<objective description="red_money_loud_c4_desc" id="red_money_loud_c4" prio="1" text="red_money_loud_c4" xp_weight="1"/>
+	<objective description="red_money_loud_ther_desc" id="red_money_loud_ther" prio="1" text="red_money_loud_ther" xp_weight="1"/>
+	<objective description="red_money_goto_vault_desc" id="red_money_goto_vault" prio="1" text="red_money_goto_vault" xp_weight="1"/>
+	<objective description="red_money_winch_001_desc" id="red_money_winch_001" prio="1" text="red_money_winch_001" xp_weight="1"/>
+	<objective description="red_money_winch_002_desc" id="red_money_winch_002" prio="1" text="red_money_winch_002" xp_weight="1"/>
+	<objective description="red_money_winch_003_desc" id="red_money_winch_003" prio="1" text="red_money_winch_003" xp_weight="1"/>
+	<objective description="red_money_winch_004_desc" id="red_money_winch_004" prio="1" text="red_money_winch_004" xp_weight="1"/>
+	<objective description="red_money_winch_005_desc" id="red_money_winch_005" prio="1" text="red_money_winch_005" xp_weight="1"/>
+	<objective description="red_money_winch_006_desc" id="red_money_winch_006" prio="1" text="red_money_winch_006" xp_weight="1"/>
+	<objective description="red_money_winch_007_desc" id="red_money_winch_007" prio="1" text="red_money_winch_007" xp_weight="1"/>
+	<objective description="red_money_loud_drill_pku_desc" id="red_money_loud_drill_pku" prio="1" text="red_money_loud_drill_pku" xp_weight="1"/>
+	<objective description="red_money_loud_c4_pku_desc" id="red_money_loud_c4_pku" prio="1" text="red_money_loud_c4_pku" xp_weight="1"/>
+	<objective description="red_money_loud_ther_pku_desc" id="red_money_loud_ther_pku" prio="1" text="red_money_loud_ther_pku" xp_weight="1"/>
+	<objective description="red_money_loud_winch_pku_desc" id="red_money_loud_winch_pku" prio="1" text="red_money_loud_winch_pku" xp_weight="1"/>
+	<objective description="red_money_stealth_obj_001_desc" id="red_money_stealth_obj_001" prio="1" text="red_money_stealth_obj_001" xp_weight="1"/>
+	<objective description="red_money_stealth_obj_002_desc" id="red_money_stealth_obj_002" prio="1" text="red_money_stealth_obj_002" xp_weight="1"/>
+	<objective description="red_money_stealth_obj_003_001_desc" id="red_money_stealth_obj_003_001" prio="1" text="red_money_stealth_obj_003_001" xp_weight="1"/>
+	<objective description="red_money_stealth_obj_003_002_desc" id="red_money_stealth_obj_003_002" prio="1" text="red_money_stealth_obj_003_002" xp_weight="1"/>
+	<objective description="red_money_stealth_obj_004_001_desc" id="red_money_stealth_obj_004_001" prio="1" text="red_money_stealth_obj_004_001" xp_weight="1"/>
+	<objective description="red_money_stealth_obj_004_002_desc" id="red_money_stealth_obj_004_002" prio="1" text="red_money_stealth_obj_004_002" xp_weight="1"/>
+	<objective description="red_money_stealth_obj_005_001_desc" id="red_money_stealth_obj_005_001" prio="1" text="red_money_stealth_obj_005_001" xp_weight="1"/>
+	<objective description="red_money_stealth_obj_005_002_desc" id="red_money_stealth_obj_005_002" prio="1" text="red_money_stealth_obj_005_002" xp_weight="1"/>
+	<objective description="red_money_stealth_obj_005_003_desc" id="red_money_stealth_obj_005_003" prio="1" text="red_money_stealth_obj_005_003" xp_weight="1"/>
+	<objective description="red_money_stealth_obj_005_004_desc" id="red_money_stealth_obj_005_004" prio="1" text="red_money_stealth_obj_005_004" xp_weight="1"/>
+	<objective description="red_money_stealth_obj_006_desc" id="red_money_stealth_obj_006" prio="1" text="red_money_stealth_obj_006" xp_weight="1"/>
+	<objective description="red_money_stealth_obj_007_desc" id="red_money_stealth_obj_007" prio="1" text="red_money_stealth_obj_007" xp_weight="1"/>
+	<objective description="red_money_stealth_obj_008_desc" id="red_money_stealth_obj_008" prio="1" text="red_money_stealth_obj_008" xp_weight="1"/>
+</table>

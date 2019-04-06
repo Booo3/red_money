@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mat_mullplan" render_template="decal:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_int_mullplan/ch_int_mullplan_df"/>
+    </material>
+</materials>

@@ -1,0 +1,43 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_sah/props/sah_interactable_hackbox/sah_interactable_hackbox" orientation_object="rp_sah_prop_conduit" />
+	<sequence_manager file="units/pd2_dlc_sah/props/sah_interactable_hackbox/sah_interactable_hackbox" />
+	<animations>
+		<animation_group name="anim_open" enabled="false">
+			<object name="a_lid" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_sah_prop_conduit" />
+			<object name="c_convex_base_01" collision_type="convex" padding="-2.5" />
+			<object name="c_box_base_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_base_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_base_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_base_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_base_05" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_collision_01" enabled="true" template="static">
+			<object name="a_lid" />
+			<object name="c_convex_lid" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_02" enabled="false" template="static">
+			<object name="a_lid" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	<!-- 
+	<lights>
+		<light name="li_omni_1" enabled="true" editable="true" type="omni|specular" multiplier="1" far_range="15" falloff="4" />
+	</lights> 
+	-->
+	<graphics>
+		<object name="g_lid" enabled="true" />
+		<object name="g_base" enabled="true" />
+		<object name="g_cable" enabled="true" />
+		<object name="g_hack" enabled="false" />
+		<object name="g_leds" enabled="true" />
+		<object name="g_outline_01" enabled="true" />
+		<object name="g_outline_02" enabled="true" />
+	</graphics>
+</dynamic_object>

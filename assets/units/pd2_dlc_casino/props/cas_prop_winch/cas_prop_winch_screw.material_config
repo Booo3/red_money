@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="Default" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:SKINNED_3WEIGHTS" version="2" unique="true">
+        <diffuse_texture file="units/pd2_dlc_cro/ind_ext_drydock_gate/textures/gate_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+</materials>

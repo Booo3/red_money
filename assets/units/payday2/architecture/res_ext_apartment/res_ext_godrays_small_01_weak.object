@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/res_ext_apartment/res_ext_godrays" orientation_object="rp_res_ext_godrays_small_01_weak" />
+	<bodies>
+        <body name="static_body" template="editor" enabled="true" >
+            <object name="rp_res_ext_godrays_small_01_weak"/>
+			<object name="g_g" collision_type="mesh_mopp" />
+        </body>
+    </bodies>
+	
+    <graphics>
+        <object enabled="true" name="g_g" shadow_caster="false"/>
+    </graphics>
+</dynamic_object> 

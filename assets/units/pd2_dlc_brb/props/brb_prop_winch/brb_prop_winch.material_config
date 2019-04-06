@@ -1,0 +1,21 @@
+<materials version="3">
+    <material name="mat_winch" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_1WEIGHT" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/props/cas_prop_winch/textures/winch_df"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/props/cas_prop_winch/textures/winch_nm"/>
+    </material>
+    <material name="mat_winch_contour" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_1WEIGHT" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/props/cas_prop_winch/textures/winch_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/props/cas_prop_winch/textures/winch_nm"/>
+    </material>
+    <material name="mat_hook" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/props/cas_prop_winch/textures/hook_df"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/props/cas_prop_winch/textures/hook_nm"/>
+    </material>
+    <material name="mat_hook_anim" render_template="generic:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:NORMALMAP:NORMAL_UVANIM:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/props/cas_prop_winch/textures/hook_df"/>
+        <bump_normal_texture file="units/pd2_dlc_casino/props/cas_prop_winch/textures/hook_nm"/>
+        <variable value="0 1 0" type="vector3" name="uv_speed"/>
+    </material>
+</materials>

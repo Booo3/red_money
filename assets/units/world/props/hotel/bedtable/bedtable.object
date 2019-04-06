@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/hotel/bed/hotel_bed" orientation_object="rp_bedtable" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+	  <object name="rp_bedtable"/>
+      <object name="c_bedtable" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="wood" static="true">
+    <decal_mesh name="dm_bedtable" enabled="true" material="wood" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_bedtable" enabled="true"  />
+  </graphics>
+</dynamic_object>

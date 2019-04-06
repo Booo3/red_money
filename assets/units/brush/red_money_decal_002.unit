@@ -1,0 +1,6 @@
+<unit type="str" slot="1" >
+    <object file="units/brush/red_money_decal_002" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

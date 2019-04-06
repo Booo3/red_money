@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/diamond_heist/apartment/apartment_livingroom/readinglamp_livingroom/readinglamp_livingroom" orientation_object="rp_readinglamp_livingroom" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_readinglamp_livingroom" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces>
+    <decal_mesh name="g_readinglamp_livingroom" enabled="true" material="wood" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_readinglamp_livingroom" enabled="true" />
+  </graphics>
+</dynamic_object>

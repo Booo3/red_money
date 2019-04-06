@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/architecture/slaughterhouse/godray/godray_rectangular_cone" orientation_object="rp_godray_rectangular_cone1" />
+  <bodies>
+	<body name="body" enabled="true" template="editor" >
+		<object name="rp_godray_rectangular_cone1" />
+		<object name="g_godray_rectangular_cone" collision_type="box" />
+	</body>
+  </bodies>
+  <graphics>
+    <object name="g_godray_rectangular_cone" enabled="true" />
+  </graphics>
+</dynamic_object>

@@ -1,0 +1,6 @@
+<materials version="3">
+    <material render_template="decal:DIFFUSE_TEXTURE:OPACITY_TEXTURE" name="mat_concrete_graffiti" version="2">
+        <diffuse_texture file="units/pd2_dlc_flat/props/flt_props_graffiti/flt_props_graffiti_df"/>
+        <opacity_texture file="units/pd2_dlc_flat/props/flt_props_graffiti/flt_props_graffiti_op"/>
+    </material>
+</materials>

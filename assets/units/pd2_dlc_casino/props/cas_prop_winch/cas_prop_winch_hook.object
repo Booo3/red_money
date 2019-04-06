@@ -1,0 +1,18 @@
+<dynamic_object>
+    <diesel orientation_object="rp_cas_winch_hook" materials="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_hook" />
+    <sequence_manager file="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_hook" />
+    <bodies>
+        <body enabled="true" template="editor" name="static_body">
+            <object name="rp_cas_winch_hook" />
+            <object name="c_meshmopp_hook" collision_type="mesh_mopp" />
+        </body>
+    </bodies>
+    <decal_surfaces default_material="metal">
+    	<decal_mesh name="dm_metal_hook" enabled="true" material="metal" />
+    </decal_surfaces>
+    <graphics>
+        <graphic_group name="geometry" enabled="true" culling_object="bounding_box">
+            <object name="g_hook" enabled="true" />
+        </graphic_group>
+    </graphics>
+</dynamic_object>

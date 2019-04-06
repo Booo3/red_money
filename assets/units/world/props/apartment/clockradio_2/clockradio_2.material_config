@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="clockRadio" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/world/props/apartment/clockradio_2/clockradio_2_df"/>
+        <self_illumination_texture file="units/world/props/apartment/clockradio_2/clockradio_2_il"/>
+        <variable value="match" type="scalar" name="il_multiplier"/>
+        <variable value="0" type="scalar" name="specular_power"/>
+    </material>
+</materials> 

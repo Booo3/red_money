@@ -1,0 +1,8 @@
+<materials version="3">
+	<material render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:INTERSECTION_FADEOUT:VIEW_ANGLE_FALLOFF_OP" name="mat_godray" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_godrays/chl_godrays_01_df"/>
+        <variable type="scalar" name="intensity" value="match"/>
+        <variable type="scalar" name="falloff_exp" value="2"/>
+        <variable type="scalar" name="fadeout_distance" value="266"/>
+    </material>
+</materials>

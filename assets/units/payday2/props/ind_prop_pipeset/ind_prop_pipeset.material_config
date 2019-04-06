@@ -1,0 +1,11 @@
+<materials version="3" group="mad_prop_pipeset">
+    <material name="mat_lab_pipeset" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:INSTANCED:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_df"/>
+        <bump_normal_texture file="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_nm"/>
+        <material_texture file="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_gsma"/>
+    </material>
+    <material name="mat_int_railing_add" render_template="effect:BLEND_MUL:DIFFUSE0_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_mount_df"/>
+        <variable value="dimlight" type="scalar" name="intensity"/>
+    </material>
+</materials>

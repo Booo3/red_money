@@ -1,0 +1,44 @@
+<dynamic_object>
+    <diesel orientation_object="rp_brb_prop_winch" materials="units/pd2_dlc_brb/props/brb_prop_winch/brb_prop_winch" />
+    <sequence_manager file="units/pd2_dlc_brb/props/brb_prop_winch/brb_prop_winch" />
+    <animations>
+    	<animation_group name="anim" enabled="false">
+    		<object name="a_root" />
+    		<object name="a_roll" />
+    		<object name="a_cable_base" />
+    		<object name="a_cable_01" />
+            <object name="a_cable_02" />
+    		<object name="a_cable_03" />
+    	</animation_group>
+        <animation_group name="collision_anim" enabled="false">
+            <object name="a_collision" />
+        </animation_group>
+    </animations>
+    <bodies>
+        <body name="body_cage" enabled="true" template="animated">
+            <object name="a_collision" />
+            <object name="c_meshmopp_cage" collision_type="mesh_mopp" padding="-2.5" />
+        </body>
+        <body name="body_winch" enabled="true" template="animated">
+            <object name="a_collision" />
+            <object name="c_meshmopp_winch" collision_type="mesh_mopp" padding="-2.5" />
+        </body>
+        <body name="body_hydraulic" enabled="true" template="animated">
+            <object name="a_collision" />
+            <object name="c_meshmopp_hydraulic" collision_type="mesh_mopp" padding="-2.5" />
+        </body>
+    </bodies>
+    <decal_surfaces default_material="metal">
+    	<decal_mesh name="dm_metal_winch" enabled="true" material="metal" />
+    	<decal_mesh name="dm_metal_hydraulic" enabled="true" material="metal" />
+    	<decal_mesh name="dm_metal_cage" enabled="true" material="metal" />
+    </decal_surfaces>
+    <graphics>
+    	<graphic_group name="geometry" enabled="true" culling_object="bounding_box">
+    		<object name="g_cage" enabled="true" />
+        	<object name="g_winch" enabled="true" />
+        	<object name="g_hydraulic" enabled="true" />
+        	<object name="g_cable" enabled="false" />
+    	</graphic_group>
+    </graphics>
+</dynamic_object>

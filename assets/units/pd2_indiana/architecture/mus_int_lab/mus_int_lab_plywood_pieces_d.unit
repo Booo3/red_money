@@ -1,0 +1,7 @@
+<unit type="debris" slot="18" >
+    <object file="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_d" />
+    <!-- <network sync="spawn"/> --> <!-- not allowed in temporary slots like slot 18 -->
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

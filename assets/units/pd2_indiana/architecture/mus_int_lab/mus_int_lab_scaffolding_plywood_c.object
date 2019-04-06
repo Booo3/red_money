@@ -1,0 +1,72 @@
+<dynamic_object>
+	<diesel materials="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding" orientation_object="rp_mus_int_lab_scaffolding_plywood_c" />
+    <sequence_manager file="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_c" />
+	
+    <bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mus_int_lab_scaffolding_plywood_c" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+        <body name="body_dmg_a" enabled="false" template="static">
+            <object name="rp_mus_int_lab_scaffolding_plywood_c" />
+            <object name="c_convex_dmg_a" collision_type="convex" />
+        </body>
+        <body name="body_dmg_b" enabled="false" template="static">
+            <object name="rp_mus_int_lab_scaffolding_plywood_c" />
+            <object name="c_convex_dmg_b" collision_type="convex" />
+        </body>
+        <body name="body_dmg_c" enabled="false" template="static">
+            <object name="rp_mus_int_lab_scaffolding_plywood_c" />
+            <object name="c_convex_dmg_c" collision_type="convex" />
+        </body>
+        <body name="body_dmg_d" enabled="false" template="static">
+            <object name="rp_mus_int_lab_scaffolding_plywood_c" />
+            <object name="c_convex_dmg_d" collision_type="convex" />
+        </body>
+	</bodies>
+
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+
+	<graphics>
+        <lod_object name="plywood_mat_lod_clean">
+            <object name="g_clean" enabled="true">
+                <material materials="mat_mus_int_lab_plywood" max_distance="600" />
+                <material materials="mat_mus_int_lab_plywood_lod1" max_distance="1200"/>     
+                <material materials="mat_mus_int_lab_plywood_lod2" />        
+            </object>
+        </lod_object>
+        <graphic_group name="grp_damage" enabled="false">
+            <lod_object name="plywood_mat_lod_a">
+                <object name="g_dmg_a" enabled="true">
+                    <material materials="mat_mus_int_lab_plywood" max_distance="600" />
+                    <material materials="mat_mus_int_lab_plywood_lod1" max_distance="1200"/>     
+                    <material materials="mat_mus_int_lab_plywood_lod2" />        
+                </object>
+            </lod_object>
+            <lod_object name="plywood_mat_lod_b">
+                <object name="g_dmg_b" enabled="true">
+                    <material materials="mat_mus_int_lab_plywood" max_distance="600" />
+                    <material materials="mat_mus_int_lab_plywood_lod1" max_distance="1200"/>     
+                    <material materials="mat_mus_int_lab_plywood_lod2" />        
+                </object>
+            </lod_object>
+            <lod_object name="plywood_mat_lod_c">
+                <object name="g_dmg_c" enabled="true">
+                    <material materials="mat_mus_int_lab_plywood" max_distance="600" />
+                    <material materials="mat_mus_int_lab_plywood_lod1" max_distance="1200"/>     
+                    <material materials="mat_mus_int_lab_plywood_lod2" />        
+                </object>
+            </lod_object>
+            <lod_object name="plywood_mat_lod_d">
+                <object name="g_dmg_d" enabled="true">
+                    <material materials="mat_mus_int_lab_plywood" max_distance="600" />
+                    <material materials="mat_mus_int_lab_plywood_lod1" max_distance="1200"/>     
+                    <material materials="mat_mus_int_lab_plywood_lod2" />        
+                </object>
+            </lod_object>
+        </graphic_group>
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

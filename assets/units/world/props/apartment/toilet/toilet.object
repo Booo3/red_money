@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/apartment/toilet/toilet" orientation_object="rp_toilet" />
+  <sequence_manager file="units/world/props/apartment/toilet/toilet" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_toilet" />
+      <object name="c_toilet" collision_type="mesh_mopp" />
+    </body>
+    <body name="body_lid_up" enabled="true" template="static">
+      <object name="c_lid_up" collision_type="mesh_mopp" />
+    </body>
+    <body name="body_lid_closed" template="static">
+      <object name="c_lid_closed" collision_type="mesh_mopp" />
+    </body>
+    <body name="body_lid_med" template="static">
+      <object name="c_lid_men" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="tile" static="true">
+    <decal_mesh name="dm_lid_up" 			enabled="true" material="metal" />
+    <decal_mesh name="dm_lid_closed" 	enabled="true" material="metal" />
+    <decal_mesh name="dm_lid_men" 		enabled="true" material="metal" />
+    <decal_mesh name="dm_ceramic" 	enabled="true" material="tile" />
+    <decal_mesh name="dm_metal" 		enabled="true" material="metal" />
+    <decal_mesh name="dm_toilet_water" enabled="true" material="water" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_toilet_water" 	enabled="true" instance_struct="world_tm"/>
+    <object name="g_lid_closed"  							  instance_struct="world_tm"/>
+    <object name="g_lid_up" 			enabled="true" instance_struct="world_tm"/>
+    <object name="g_toilet" 			enabled="true" instance_struct="world_tm"/>
+    <object name="g_lid_men"  								  instance_struct="world_tm"/>
+  </graphics>
+</dynamic_object>

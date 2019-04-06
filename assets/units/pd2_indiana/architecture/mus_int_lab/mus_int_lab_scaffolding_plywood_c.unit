@@ -1,0 +1,16 @@
+<unit type="mus" slot="1" >
+    <object file="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_c" />
+    <network sync="spawn"/>
+    <dependencies>
+    	<depends_on bnk="soundbanks/regular_sfx" />
+    	<depends_on unit="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_a" />
+    	<depends_on unit="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_b" />
+    	<depends_on unit="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_c" />
+    	<depends_on unit="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_d" />
+    	<depends_on physic_effect="physic_effects/push_sphere" />
+    </dependencies>
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+        <extension name="damage" class="UnitDamage" />
+    </extensions>
+</unit>

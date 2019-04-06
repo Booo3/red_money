@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/apartment/kitchen_counter/food_can" orientation_object="rp_can_04" />
+  <sequence_manager file="units/world/props/apartment/kitchen_counter/food_can_04" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_can_04" />
+      <object name="c_can" collision_type="convex" padding="-2"/>
+    </body>
+    <body pushed_by_mover="false" name="dynamic_body" template="small_prop" friction="0.8" ang_damping="0.5">
+      <object name="rp_can_04" />
+      <object name="c_can" collision_type="convex" padding="-2" mass="0.05" />
+      <object name="g_can" />
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="metal" static="true">
+    <decal_mesh name="g_can" enabled="true" material="metal" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_can" enabled="true"  />
+  </graphics>
+</dynamic_object>

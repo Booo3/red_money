@@ -1,0 +1,47 @@
+<dynamic_object>
+	<diesel materials="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding" orientation_object="rp_mus_int_lab_plywood_pieces_b" />
+	<bodies>
+		<body name="body_debris_01" enabled="true" template="dynamic">
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" mass="50"/>
+		</body>
+		<body name="body_debris_02" enabled="true" template="dynamic">
+			<object name="c_convex_02" collision_type="convex" padding="-2.5" mass="50"/>
+		</body>
+		<body name="body_debris_03" enabled="true" template="dynamic">
+			<object name="c_convex_03" collision_type="convex" padding="-2.5" mass="50"/>
+		</body>
+		<body name="body_debris_04" enabled="true" template="dynamic">
+			<object name="c_convex_04" collision_type="convex" padding="-2.5" mass="50"/>
+		</body>
+	</bodies>
+	<graphics>
+		<lod_object name="plywood_mat_lod_01">
+            <object name="g_piece_01" enabled="true" shadow_caster="true">
+                <material materials="mat_mus_int_lab_plywood" max_distance="600" />
+                <material materials="mat_mus_int_lab_plywood_lod1" max_distance="1200"/>     
+                <material materials="mat_mus_int_lab_plywood_lod2" />        
+            </object>
+        </lod_object>
+        <lod_object name="plywood_mat_lod_02">
+            <object name="g_piece_02" enabled="true" shadow_caster="true">
+                <material materials="mat_mus_int_lab_plywood" max_distance="600" />
+                <material materials="mat_mus_int_lab_plywood_lod1" max_distance="1200"/>     
+                <material materials="mat_mus_int_lab_plywood_lod2" />        
+            </object>
+        </lod_object>
+        <lod_object name="plywood_mat_lod_03">
+            <object name="g_piece_03" enabled="true" shadow_caster="true">
+                <material materials="mat_mus_int_lab_plywood" max_distance="600" />
+                <material materials="mat_mus_int_lab_plywood_lod1" max_distance="1200"/>     
+                <material materials="mat_mus_int_lab_plywood_lod2" />        
+            </object>
+        </lod_object>
+        <lod_object name="plywood_mat_lod_04">
+            <object name="g_piece_04" enabled="true" shadow_caster="true">
+                <material materials="mat_mus_int_lab_plywood" max_distance="600" />
+                <material materials="mat_mus_int_lab_plywood_lod1" max_distance="1200"/>     
+                <material materials="mat_mus_int_lab_plywood_lod2" />        
+            </object>
+        </lod_object>
+	</graphics>
+</dynamic_object>

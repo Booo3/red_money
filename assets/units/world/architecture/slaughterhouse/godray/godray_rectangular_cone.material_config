@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="light_cone" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DOUBLE_SIDED:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/world/street/street_lights/cone_light_df"/>
+        <variable value="3.8600997924805" type="scalar" name="falloff_exp"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+    </material>
+</materials>

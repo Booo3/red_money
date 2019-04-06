@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="credit_001" render_template="decal:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/credit/credit_001_df"/>
+    </material>
+</materials>

@@ -1,0 +1,6 @@
+<add path="units/credit/credit_001" type="unit">
+		<unit force="true" path="units/credit/credit_001" unload="true"/>
+		<object force="true" path="units/credit/credit_001" unload="true"/>
+		<material_config force="true" path="units/credit/credit_001" unload="true"/>
+		<texture force="true" path="units/credit/credit_001" unload="true"/>
+	</add>

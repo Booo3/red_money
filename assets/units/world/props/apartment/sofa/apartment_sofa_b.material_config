@@ -1,0 +1,10 @@
+<materials version="3">
+    <material name="sofa_b_double" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture file="units/world/props/apartment/sofa/apartment_sofa_b_df"/>
+        <bump_normal_texture file="units/world/props/apartment/sofa/apartment_sofa_b_nm"/>
+    </material>
+	<material name="sofa_b_single" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture file="units/world/props/apartment/sofa/apartment_sofa_b_df"/>
+        <bump_normal_texture file="units/world/props/apartment/sofa/apartment_sofa_b_nm"/>
+    </material>
+</materials>

@@ -1,0 +1,20 @@
+<table directory="assets">
+	<add path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds" type="unit">
+		<material_config force="true" path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds" unload="true"/>
+		<object force="true" path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds" unload="true"/>
+		<unit force="true" path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds" unload="true"/>
+	</add>
+	<add path="units/test/jocke/plane_black_temp" type="unit">
+		<material_config force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
+		<object force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
+		<unit force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
+	</add>
+	<add path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" type="unit">
+		<unit force="true" path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
+		<object force="true" path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
+		<material_config force="true" path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
+		<effect force="true" load="true" path="effects/payday2/particles/grab/grab_gold" unload="true"/>
+	</add>
+</table>

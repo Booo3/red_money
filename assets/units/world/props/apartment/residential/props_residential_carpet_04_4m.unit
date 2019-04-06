@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<unit type="apa" slot="1">
+	 <!--<network sync="spawn" />-->
+  <object file="units/world/props/apartment/residential/props_residential_carpet_04_4m" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+    <!--<extension name="damage" class="UnitDamage" />-->
+  </extensions>
+</unit>

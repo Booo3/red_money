@@ -1,0 +1,15 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_rvd/props/rvd_prop_godray/rvd_prop_godrays" orientation_object="rp_rvd_prop_godrays" />
+	<bodies>
+		<body name="body_static" enabled="true" template="editor">
+			<object name="rp_rvd_prop_godrays" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<effects>
+		<effect_spawner name="dust" enabled="true" object="e_effect_01" effect="effects/payday2/particles/flares/godrays_dust_smaller" />
+	</effects>
+	<graphics>
+		<object name="g_godrays" enabled="true" />
+	</graphics>
+</dynamic_object>

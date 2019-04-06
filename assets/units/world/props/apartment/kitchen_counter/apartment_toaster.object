@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/apartment/kitchen_counter/apartment_frying_pan" orientation_object="rp_apartment_toaster" />
+  <bodies>
+    <body name="static_body" enabled="true" template="raycoll_static">
+      <object name="rp_apartment_toaster" />
+      <object name="c_toaster" collision_type="box" padding="-2"/>
+    </body>
+  </bodies>
+  <decal_surfaces default_material="metal_chassis" static="true">
+    <decal_mesh name="dm_sheet_metal" enabled="true" material="metal_chassis"/>
+    <decal_mesh name="dm_plastic" enabled="true" material="plastic" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_toaster" enabled="true"  />
+  </graphics>
+</dynamic_object>

@@ -1,0 +1,13 @@
+<table directory="assets">
+	<add path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" type="unit">
+		<unit force="true" path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<object force="true" path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<sequence_manager force="true" path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<sequence_manager force="true" path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+	</add>
+	<add path="units/world/props/suburbia_newspaper_folded/suburbia_newspaper_folded" type="unit">
+		<material_config force="true" path="units/world/props/suburbia_newspaper/suburbia_newspaper" unload="true"/>
+		<object force="true" path="units/world/props/suburbia_newspaper_folded/suburbia_newspaper_folded" unload="true"/>
+		<unit force="true" path="units/world/props/suburbia_newspaper_folded/suburbia_newspaper_folded" unload="true"/>
+	</add>
+</table>

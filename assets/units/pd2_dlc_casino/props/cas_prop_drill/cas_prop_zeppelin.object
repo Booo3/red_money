@@ -1,0 +1,29 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_zeppelin" orientation_object="rp_cas_prop_zeppelin" />
+	<sequence_manager file="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_zeppelin" />
+	<animations>
+		<animation_group name="anim" enabled="false">
+			<object name="a_main" />
+		</animation_group>
+		<animation_group name="blades" enabled="true">
+			<object name="a_right_blade" />
+			<object name="a_left_blade" />
+		</animation_group>
+		<animation_group name="cable" enabled="false">
+			<object name="a_cable_01" />
+			<object name="a_cable_02" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_a_main" enabled="true" template="animated">
+			<object name="a_main" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<graphic_group name="geometry" enabled="true" culling_object="co_cull_box">
+			<object name="g_zeppelin" enabled="true" />
+			<object name="g_cable" enabled="true" />
+		</graphic_group>
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,86 @@
+<dynamic_object>
+    <diesel orientation_object="rp_hcm_ext_roof_top_window_skylight" materials="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight" />
+    <sequence_manager file="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight" />
+    <animations>
+        <animation_group name="anim_grp0" >
+            <object enabled="true" name="a_hatch" />
+        </animation_group>
+    </animations>
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_hcm_ext_roof_top_window_skylight" />
+            <object collision_type="box" name="c_box_frame_00" />
+            <object collision_type="box" name="c_box_frame_01" />
+            <object collision_type="box" name="c_box_frame_02" />
+            <object collision_type="box" name="c_box_frame_03" />
+            <object collision_type="box" name="c_box_frame_04" />
+            <object collision_type="box" name="c_box_frame_05" />
+            <object collision_type="box" name="c_box_frame_06" />
+            <object collision_type="box" name="c_box_frame_07" />
+        </body>
+
+        <body enabled="false" template="static" name="static_body_wrecked" >
+            <object name="rp_hcm_ext_roof_top_window_skylight" />
+            <object collision_type="box" name="c_box_frame_00" />
+            <object collision_type="box" name="c_box_frame_01" />
+            <object collision_type="box" name="c_box_frame_02" />
+            <object collision_type="box" name="c_box_frame_03" />
+        </body>
+	
+	   <body name="hatch_body" enabled="true" remove_ray_type="vis_graph ai_vision walk" keyframed="true" template="static" >
+            <object name="a_hatch" />
+            <object name="c_box_hatch" collision_type="box"  padding="-2.5"/>
+        </body>
+	
+	   <body name="glass_body_01" enabled="true" template="static"  remove_ray_type="vis_graph ai_vision walk" >
+		<object name="rp_hcm_ext_roof_top_window_skylight" />
+           	<object name="g_glass_01" collision_type="box" padding="-2.5"/>
+        </body>
+	   <body name="glass_body_02" enabled="true" template="static"  remove_ray_type="vis_graph ai_vision walk" >
+           	<object name="g_glass_02" collision_type="box" padding="-2.5"/>
+        </body>
+	   <body name="glass_body_03" enabled="true" template="static"  remove_ray_type="vis_graph ai_vision walk" >
+           	<object name="g_glass_03" collision_type="box" padding="-2.5"/>
+        </body>
+	   <body name="glass_body_04" enabled="true" template="static"  remove_ray_type="vis_graph ai_vision walk" >
+	
+           	<object name="g_glass_04" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    
+    <decal_surfaces default_material="metal">
+		<decal_mesh enabled="true" name="dm_sheet_metal" material="sheet_metal" />
+        <decal_mesh enabled="false" name="dm_wrecked_sheet_metal" material="sheet_metal" />
+		<decal_mesh enabled="true" name="g_glass_01" material="glass_breakable" />
+		<decal_mesh enabled="true" name="g_glass_02" material="glass_breakable" />
+		<decal_mesh enabled="true" name="g_glass_03" material="glass_breakable" />
+		<decal_mesh enabled="true" name="g_glass_04" material="glass_breakable" />
+		<decal_mesh enabled="true" name="g_hatch" material="glass_breakable" />
+	</decal_surfaces>
+    
+    <graphics>
+        <object enabled="true" name="s_hatch" shadow_caster="true" />
+        <object enabled="true" name="s_frame" shadow_caster="true" />
+
+        <graphic_group name="gg_wrecked" enabled="false" culling_object="CullingObjectName">
+            <object enabled="true" name="s_wrecked" shadow_caster="true" />
+            <object enabled="true" name="g_wrecked_frame" />
+            <object enabled="true" name="g_wrecked_glass" />
+        </graphic_group>
+        
+
+        <object enabled="true" name="g_glass_01" />
+        <object enabled="true" name="g_glass_02" />
+        <object enabled="true" name="g_glass_03" />
+        <object enabled="true" name="g_glass_04" />
+        <object enabled="true" name="g_hatch" 	/>
+        <object enabled="false" name="g_hatch_dmg" />
+        <object enabled="true" name="g_frame" />
+        <graphic_group name="contour_grp" enabled="true" culling_object="g_outline">
+            <lod_object name="contour_lod">
+                <object name="g_outline_lod0" enabled="true"  max_distance="500"  max_draw_lod="0" />
+                <object name="g_outline_lod1" enabled="true" lod="1" />
+            </lod_object>
+        </graphic_group>
+    </graphics>
+</dynamic_object>

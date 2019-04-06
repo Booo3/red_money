@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/apartment/residential/props_residential_fridge_dirt" orientation_object="rp_props_residential_fridge_dirt" />
+  <!--<sequence_manager file="units/world/props/apartment/hide_units" />-->
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_props_residential_fridge_dirt" />
+      <object name="c_props_residential_fridge_dirt" collision_type="box" padding="-2"/>
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="sheet_metal">
+    <decal_mesh name="g_props_residential_fridge_dirt" enabled="true" material="sheet_metal" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_props_residential_fridge_dirt" enabled="true" instance_struct="world_tm" />
+  </graphics>
+</dynamic_object> 

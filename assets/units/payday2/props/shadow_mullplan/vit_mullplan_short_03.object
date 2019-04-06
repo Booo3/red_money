@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/payday2/props/shadow_mullplan/mullplan_vehicle" orientation_object="rp_vit_mullplan_short_03" />
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>

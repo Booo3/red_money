@@ -1,0 +1,16 @@
+<dynamic_object>
+    <diesel orientation_object="rp_res_prop_bedroom_bed_small" materials="units/payday2/props/res_prop_bedroom_bed_small/res_prop_bedroom_bed_small" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object collision_type="box" name="c_cube" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_cloth" material="cloth_stuffed" />
+        <decal_mesh enabled="true" name="dm_wood" material="wood" />
+        <decal_mesh enabled="true" name="dm_steel" material="steel" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_body" />
+    </graphics>
+</dynamic_object>

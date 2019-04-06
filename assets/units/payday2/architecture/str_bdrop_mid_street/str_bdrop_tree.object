@@ -1,0 +1,11 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_bdrop_tree" materials="units/payday2/architecture/str_bdrop_mid_street/str_bdrop" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="box" name="c_box_000" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

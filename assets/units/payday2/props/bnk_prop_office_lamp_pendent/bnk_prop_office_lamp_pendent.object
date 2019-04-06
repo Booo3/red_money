@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_bnk_prop_office_lamp_pendent" materials="units/payday2/props/bnk_prop_office_lamp_pendent/bnk_prop_office_lamp_pendent" />
+        <sequence_manager file="units/payday2/props/bnk_prop_office_lamp_pendent/bnk_prop_office_lamp_pendent" />
+	<bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_bnk_prop_office_lamp_pendent" />
+			<object name="c_convex_01" collision_type="sphere" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+        <object enabled="false" name="g_dmg" />		
+    </graphics>
+	<lights>
+		<light multiplier="identity" editable="true" far_range="250" name="lo_omni" enabled="true" type="omni|specular" />
+	</lights>	
+</dynamic_object>

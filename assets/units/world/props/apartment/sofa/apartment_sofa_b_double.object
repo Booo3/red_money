@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/apartment/sofa/apartment_sofa_b" orientation_object="rp_sofa_b_double" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_sofa_b_double" />
+      <object name="c_sofa_b_double" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="cloth_stuffed">
+    <decal_mesh name="g_sofa_b_double" enabled="true" material="cloth_stuffed" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_sofa_b_double" enabled="true" />
+  </graphics>
+</dynamic_object>

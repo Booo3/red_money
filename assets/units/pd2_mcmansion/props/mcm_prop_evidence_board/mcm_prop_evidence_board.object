@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mcmansion/props/mcm_prop_evidence_board/mcm_prop_evidence_board" orientation_object="rp_mcm_prop_evidence_board" />
+	<sequence_manager file="units/pd2_mcmansion/props/mcm_prop_evidence_board/mcm_prop_evidence_board" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mcm_prop_evidence_board" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_board" enabled="true" />
+		<object name="g_evidence_board_01" enabled="false" />
+		<object name="g_evidence_board_02" enabled="false" />
+		<object name="g_evidence_board_03" enabled="false" />
+	</graphics>
+</dynamic_object>

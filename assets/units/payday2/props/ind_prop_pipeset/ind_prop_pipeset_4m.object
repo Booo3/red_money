@@ -1,0 +1,16 @@
+<dynamic_object>
+	<diesel materials="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset" orientation_object="rp_ind_prop_pipeset_4m" />
+	<sequence_manager file="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_ind_prop_pipeset_4m" />
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_g" enabled="true" instance_struct="world_tm" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,15 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_jerry/props/jry_prop_dirt_pile/jry_prop_dirt_pile" orientation_object="rp_jry_prop_dirt_pile" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_jry_prop_dirt_pile" />
+			<object name="c_convex" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="stone">
+		<decal_mesh name="g_g" enabled="true" material="gravel" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>

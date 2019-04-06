@@ -1,0 +1,12 @@
+<materials version="3">
+    <material name="mat_res_cable" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/architecture/res_ext_apartment/res_apartment_cable_df"/>
+        <bump_normal_texture file="units/payday2/architecture/res_ext_apartment/res_apartment_cable_nm"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_zero_df" type="cubemap"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" render_template="effect:BLEND_MUL:DIFFUSE0_TEXTURE" name="mat_res_cable_shadow">
+        <diffuse_texture file="units/payday2/architecture/res_ext_apartment/res_apartment_cable_shadow_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+    </material>
+</materials>

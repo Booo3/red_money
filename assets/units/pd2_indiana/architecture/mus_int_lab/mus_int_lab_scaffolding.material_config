@@ -1,0 +1,29 @@
+<materials version="3">
+    <material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+    <material name="mat_mus_int_lab_scaffolding" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_df"/>
+        <bump_normal_texture file="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_nm"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_mus_int_lab_plywood" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_df"/>
+        <bump_normal_texture file="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_nm"/>
+    </material>
+    <material name="mat_mus_int_lab_plywood_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_nm" mip="1"/>
+    </material>
+    <material name="mat_mus_int_lab_plywood_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_df" mip="2"/>
+        <bump_normal_texture file="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_nm" mip="2"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_FADE" decal_material="glass_breakable" name="mat_mus_int_lab_plastic_ceiling" version="2">
+        <variable value="2 1 1" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plastic_ceiling_op"/>
+        <diffuse_texture file="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plastic_ceiling_df"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_diamonds" type="cubemap"/>
+        <variable value="10 4000 0" type="vector3" name="opacity_fade"/>
+        <bump_normal_texture file="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plastic_ceiling_nm"/>
+    </material>
+</materials>

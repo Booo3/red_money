@@ -1,0 +1,22 @@
+<dynamic_object>
+	<diesel materials="units/pd2_indiana/props/mus_prop_diamond_door/mus_prop_diamond_portal" orientation_object="rp_mus_prop_diamond_securitygate" />
+	<sequence_manager file="units/pd2_indiana/props/mus_prop_diamond_door/mus_prop_diamond_securitygate" />
+	<animations>
+		<animation_group name="animation_gate" enabled="false">
+			<object name="anim_gate" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_anim" enabled="true" template="animated">
+			<object name="anim_gate" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="dm_metal_frame" enabled="true" material="metal" />
+		<decal_mesh name="dm_metal_gate" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_gate" enabled="true" />
+	</graphics>
+</dynamic_object>

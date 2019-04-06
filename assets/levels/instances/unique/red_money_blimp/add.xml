@@ -1,0 +1,120 @@
+<table directory="assets">
+	<add path="units/pd2_dlc_casino/props/cas_prop_medic_firstaid_box/cas_prop_medic_firstaid_box" type="unit">
+		<material_config force="true" path="units/payday2/props/stn_prop_medic_firstaid_box/stn_prop_medic_firstaid_box" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/props/cas_prop_medic_firstaid_box/cas_prop_medic_firstaid_box" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/props/cas_prop_medic_firstaid_box/cas_prop_medic_firstaid_box" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_casino/props/cas_prop_medic_firstaid_box/cas_prop_medic_firstaid_box" unload="true"/>
+	</add>
+	<add path="units/dev_tools/dev_ladder/dev_ladder" type="unit">
+		<material_config force="true" path="units/dev_tools/dev_ladder/dev_ladder" unload="true"/>
+		<object force="true" path="units/dev_tools/dev_ladder/dev_ladder" unload="true"/>
+		<sequence_manager force="true" path="units/dev_tools/dev_ladder/dev_ladder" unload="true"/>
+		<unit force="true" path="units/dev_tools/dev_ladder/dev_ladder" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" type="unit">
+		<material_config force="true" path="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_watertank/cas_gen_square_drop_marker_2x3_watertank" type="unit">
+		<material_config force="true" path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_watertank/cas_gen_square_drop_marker_2x3_watertank" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_watertank/cas_gen_square_drop_marker_2x3_watertank" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_watertank/cas_gen_square_drop_marker_2x3_watertank" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_watertank/cas_gen_square_drop_marker_2x3_watertank" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/props/cas_prop_power_socket/cas_prop_power_socket_01" type="unit">
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_casino/props/cas_prop_power_socket/cas_prop_power_socket_01" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/props/cas_prop_power_socket/cas_prop_power_socket_01" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/props/cas_prop_power_socket/cas_prop_power_socket_01" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_casino/props/cas_prop_power_socket/cas_prop_power_socket_01" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_holder_01" type="unit">
+		<material_config force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_holder_01" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_holder_01" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_holder_01" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_holder_01" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_02" type="unit">
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_01" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_02" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_02" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_02" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_01" type="unit">
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_01" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_01" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_01" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_01" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_drill" type="unit">
+		<unit force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_drill" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_drill" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_drill" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_drill" unload="true"/>
+		<effect force="true" load="true" path="effects/payday2/environment/parts/drill_sparks" unload="true"/>
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+		<unit force="true" path="units/payday2/equipment/gen_equipment_sentry/gen_equipment_sentry" unload="true"/>
+		<object force="true" path="units/payday2/equipment/gen_equipment_sentry/gen_equipment_sentry" unload="true"/>
+		<material_config force="true" path="units/payday2/equipment/gen_equipment_sentry/gen_equipment_sentry" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/equipment/gen_equipment_sentry/gen_equipment_sentry" unload="true"/>
+		<bnk force="true" path="soundbanks/weapon_turret" unload="true"/>
+		<bnk force="true" path="soundbanks/weapon_turret_ap" unload="true"/>
+		<effect force="true" load="true" path="effects/particles/dest/security_camera_dest" unload="true"/>
+		<effect force="true" load="true" path="effects/particles/dest/sparks_lamp_dest" unload="true"/>
+		<effect force="true" load="true" path="effects/payday2/particles/electric/electric_sparks_turret" unload="true"/>
+		<effect force="true" load="true" path="effects/payday2/particles/electric/electric_sparks_turret_50%" unload="true"/>
+		<effect force="true" load="true" path="effects/payday2/particles/electric/electric_sparks_turret_dead" unload="true"/>
+		<effect force="true" load="true" path="effects/payday2/environment/drill_jammed" unload="true"/>
+		<unit force="true" path="units/payday2/equipment/gen_equipment_sentry/gen_equipment_sentry_fire_mode" unload="true"/>
+		<object force="true" path="units/payday2/equipment/gen_equipment_sentry/gen_equipment_sentry_fire_mode" unload="true"/>
+		<material_config force="true" path="units/payday2/equipment/gen_equipment_sentry/gen_equipment_sentry_fire_mode" unload="true"/>
+		<effect force="true" load="true" path="effects/payday2/environment/parts/drill_sparks" unload="true"/>
+		<font force="true" path="fonts/font_digital" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_zeppelin" type="unit">
+		<material_config force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_zeppelin" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_zeppelin" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_zeppelin" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_zeppelin" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/props/cas_prop_power_socket/cas_prop_power_socket_02" type="unit">
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_casino/props/cas_prop_power_socket/cas_prop_power_socket_01" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/props/cas_prop_power_socket/cas_prop_power_socket_02" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/props/cas_prop_power_socket/cas_prop_power_socket_02" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_casino/props/cas_prop_power_socket/cas_prop_power_socket_02" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4" type="unit">
+		<material_config force="true" path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/props/cas_prop_drill_tool/cas_prop_drill_tool" type="unit">
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_casino/props/cas_prop_drill_tool/cas_prop_drill_tool" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/props/cas_prop_drill_tool/cas_prop_drill_tool" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/props/cas_prop_drill_tool/cas_prop_drill_tool" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_casino/props/cas_prop_drill_tool/cas_prop_drill_tool" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/props/cas_drill_collision/cas_drill_collision" type="unit">
+		<material_config force="true" path="units/pd2_dlc_casino/props/cas_drill_collision/cas_drill_collision" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/props/cas_drill_collision/cas_drill_collision" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_casino/props/cas_drill_collision/cas_drill_collision" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_holder_02" type="unit">
+		<material_config force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_holder_01" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_holder_02" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_holder_02" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_casino/props/cas_prop_drill/cas_prop_watertank_holder_02" unload="true"/>
+	</add>
+	<add path="units/test/jocke/plane_black_temp" type="unit">
+		<unit force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
+		<object force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
+		<material_config force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
+	</add>
+</table>

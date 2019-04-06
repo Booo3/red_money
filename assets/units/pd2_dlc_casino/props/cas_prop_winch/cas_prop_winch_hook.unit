@@ -1,0 +1,15 @@
+<unit type="ind" slot="1">
+    <object file="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_hook" />
+    <network sync="spawn"/>
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    	<extension name="damage" class="UnitDamage" />
+    	<extension name="interaction" class="SpecialEquipmentInteractionExt">
+    		<var name="tweak_data" value="cas_take_hook" />
+    		<var name="_special_equipment" value="cas_winch_hook" />
+    		<var name="_interact_object" value="int_location"/>
+            <var name="_remove_on_interact" value="true" />
+    	</extension>
+    </extensions>
+</unit>
+

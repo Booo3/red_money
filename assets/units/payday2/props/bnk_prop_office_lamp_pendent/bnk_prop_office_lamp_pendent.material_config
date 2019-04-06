@@ -1,0 +1,14 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_lamp" version="2">
+        <diffuse_texture file="units/payday2/props/bnk_prop_office_lamp_pendent/bnk_prop_office_lamp_pendent_df"/>
+        <bump_normal_texture file="units/payday2/props/bnk_prop_office_lamp_pendent/bnk_prop_office_lamp_pendent_nm"/>
+        <variable type="scalar" name="il_multiplier" value="sun"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_lamp_il" version="2">
+        <diffuse_texture file="units/payday2/props/bnk_prop_office_lamp_pendent/bnk_prop_office_lamp_pendent_df"/>
+        <bump_normal_texture file="units/payday2/props/bnk_prop_office_lamp_pendent/bnk_prop_office_lamp_pendent_nm"/>
+        <self_illumination_texture file="units/payday2/props/bnk_prop_office_lamp_pendent/bnk_prop_office_lamp_pendent_il"/>
+        <variable type="scalar" name="il_multiplier" value="dimlight"/>
+        <variable type="scalar" name="il_bloom" value="2"/>
+    </material>
+</materials>

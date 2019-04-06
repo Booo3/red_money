@@ -1,0 +1,19 @@
+<dynamic_object>
+    <diesel orientation_object="rp_cas_prop_winch_screw" materials="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_screw" />
+    <sequence_manager file="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_screw" />
+    <bodies>
+        <body enabled="true" template="editor" name="static_body">
+            <object name="a_screw" />
+            <object name="c_box_01" collision_type="box" />
+        </body>
+    </bodies>
+    <decal_surfaces />
+    <graphics>
+        <object name="g_g" enabled="true" />
+    </graphics>
+    <animations>
+        <animation_group name="anim" enabled="false">
+            <object name="a_screw" />
+        </animation_group>
+    </animations>
+</dynamic_object>

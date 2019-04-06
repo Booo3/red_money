@@ -1,0 +1,49 @@
+<add path="units/brush/red_money_leaves" type="unit">
+		<material_config force="true" path="units/brush/red_money_leaves" unload="true"/>
+		<model force="true" path="units/brush/red_money_leaves" unload="true"/>
+		<object force="true" path="units/brush/red_money_leaves" unload="true"/>
+		<texture force="true" path="units/brush/texture/red_money_leaves" unload="true"/>
+		<unit force="true" path="units/brush/red_money_leaves" unload="true"/>
+	</add>
+	<add path="units/brush/red_money_crack_001" type="unit">
+		<material_config force="true" path="units/brush/red_money_crack_001" unload="true"/>
+		<model force="true" path="units/brush/red_money_crack_001" unload="true"/>
+		<object force="true" path="units/brush/red_money_crack_001" unload="true"/>
+		<texture force="true" path="units/brush/texture/red_money_crack_001" unload="true"/>
+		<unit force="true" path="units/brush/red_money_crack_001" unload="true"/>
+	</add>
+	<add path="units/brush/red_money_crack_002" type="unit">
+		<material_config force="true" path="units/brush/red_money_crack_002" unload="true"/>
+		<model force="true" path="units/brush/red_money_crack_002" unload="true"/>
+		<object force="true" path="units/brush/red_money_crack_002" unload="true"/>
+		<texture force="true" path="units/brush/texture/red_money_crack_002" unload="true"/>
+		<unit force="true" path="units/brush/red_money_crack_002" unload="true"/>
+	</add>
+	<add path="units/brush/red_money_decal_001" type="unit">
+		<material_config force="true" path="units/brush/red_money_decal_001" unload="true"/>
+		<model force="true" path="units/brush/red_money_decal_001" unload="true"/>
+		<object force="true" path="units/brush/red_money_decal_001" unload="true"/>
+		<texture force="true" path="units/brush/texture/red_money_decal_001" unload="true"/>
+		<unit force="true" path="units/brush/red_money_decal_001" unload="true"/>
+	</add>
+	<add path="units/brush/red_money_decal_002" type="unit">
+		<material_config force="true" path="units/brush/red_money_decal_002" unload="true"/>
+		<model force="true" path="units/brush/red_money_decal_002" unload="true"/>
+		<object force="true" path="units/brush/red_money_decal_002" unload="true"/>
+		<texture force="true" path="units/brush/texture/red_money_decal_002" unload="true"/>
+		<unit force="true" path="units/brush/red_money_decal_002" unload="true"/>
+	</add>
+	<add path="units/brush/red_money_decal_003" type="unit">
+		<material_config force="true" path="units/brush/red_money_decal_003" unload="true"/>
+		<model force="true" path="units/brush/red_money_decal_003" unload="true"/>
+		<object force="true" path="units/brush/red_money_decal_003" unload="true"/>
+		<texture force="true" path="units/brush/texture/red_money_decal_003" unload="true"/>
+		<unit force="true" path="units/brush/red_money_decal_003" unload="true"/>
+	</add>
+	<add path="units/brush/red_money_decal_004" type="unit">
+		<material_config force="true" path="units/brush/red_money_decal_004" unload="true"/>
+		<model force="true" path="units/brush/red_money_decal_004" unload="true"/>
+		<object force="true" path="units/brush/red_money_decal_004" unload="true"/>
+		<texture force="true" path="units/brush/texture/red_money_decal_004" unload="true"/>
+		<unit force="true" path="units/brush/red_money_decal_004" unload="true"/>
+	</add>

@@ -1,0 +1,11 @@
+<materials version="3">
+    <material name="toilet_water" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <opacity_texture file="units/world/props/apartment/toilet/toilet_water_op"/>
+        <diffuse_texture file="units/world/props/apartment/toilet/apartment_toilet_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="1.1599999666214 0.81000000238419 0" type="vector3" name="fresnel_settings"/>
+    </material>
+    <material name="mtr_toilet" render_template="generic:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/props/apartment/toilet/apartment_toilet_df"/>
+    </material>
+</materials>

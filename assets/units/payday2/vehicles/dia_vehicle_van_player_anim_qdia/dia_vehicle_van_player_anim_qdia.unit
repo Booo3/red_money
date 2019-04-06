@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<unit type="deprecated" slot="1">
+	<object file="units/payday2/vehicles/dia_vehicle_van_player_anim_qdia/dia_vehicle_van_player_anim_qdia" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/window/storefront_window_small" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="van_skin" class="VanSkinExt" />
+	</extensions>
+	<sounds>
+		<soundsource name="snd" source="anim_body" />
+	</sounds>
+</unit>

@@ -1,0 +1,10 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_chill/props/chl_prop_godrays/chl_prop_godrays_small/chl_prop_godrays_small" orientation_object="rp_chl_prop_godrays_small" />
+	<effects>
+		<effect_spawner name="dust" enabled="true" object="e_effect_01" effect="effects/payday2/particles/flares/godrays_dust" />
+	</effects>
+	<sequence_manager file="units/pd2_dlc_chill/props/chl_prop_godrays/chl_prop_godrays_small/chl_prop_godrays_small" />
+	<graphics>
+		<object name="g_godrays_small" enabled="true" />
+	</graphics>
+</dynamic_object>

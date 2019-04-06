@@ -1,0 +1,27 @@
+<materials version="3">
+    
+	<material name="mat_skylight_frame" src="GLOBAL" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight_df"/>
+		<bump_normal_texture file="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight_nm"/>
+		<reflection_texture type="cube" global_texture="current_global_texture"/>
+		<variable value="1 0 2" type="vector3" name="environment_settings"/>
+	</material>
+    
+	<material name="mat_skylight_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_FADE_TO_SOLID" version="2">
+		<variable value="0 0.47999998927116 0.91999995708466" type="vector3" name="fresnel_settings"/>
+		<opacity_texture file="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight_glass_op"/>
+		<diffuse_texture file="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight_glass_df"/>
+		<bump_normal_texture file="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight_glass_nm"/>
+		<reflection_texture type="cube" global_texture="current_global_texture"/>
+		<variable value="10 4000 0" type="vector3" name="opacity_fade_to_solid"/>
+	</material>
+    
+	<material name="mat_contour" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" unique="true" version="2">
+		<diffuse_texture file="units/white_df"/>
+		<variable value="1 0.5 0" type="vector3" name="contour_color"/>
+		<variable value="1" type="scalar" name="contour_opacity"/>
+		<opacity_texture file="units/transparent_op"/>
+	</material>
+    
+	<material version="2" render_template="shadow_caster_only" name="shadow_caster"/>    
+</materials>

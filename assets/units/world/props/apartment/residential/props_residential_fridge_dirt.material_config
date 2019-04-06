@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="props_residential_fridge_dirt" version="2" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:VERTEX_COLOR">
+        <diffuse_texture file="units/world/props/apartment/residential/props_residential_fridge_dirt_new_df"/>
+    </material>
+</materials>

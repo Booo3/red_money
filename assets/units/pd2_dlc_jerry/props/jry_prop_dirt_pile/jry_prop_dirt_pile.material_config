@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="mat_dirt" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture file="units/pd2_dlc_jerry/props/jry_prop_dirt_pile/jry_prop_dirt_pile_df"/>
+        <bump_normal_texture file="units/pd2_dlc_jerry/props/jry_prop_dirt_pile/jry_prop_dirt_pile_nm"/>
+    </material>
+</materials>

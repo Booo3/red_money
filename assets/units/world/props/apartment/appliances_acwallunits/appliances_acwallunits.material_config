@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="props_appliances_acwallunits" decal_material="metal_chassis" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/props/apartment/appliances_acwallunits/appliances_acwallunits_texture_df"/>
+        <variable value="0" type="scalar" name="specular_power"/>
+        <bump_normal_texture file="units/world/props/apartment/appliances_acwallunits/appliances_acwallunits_texture_nm"/>
+    </material>
+</materials>
