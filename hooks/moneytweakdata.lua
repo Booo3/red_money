@@ -1,7 +1,6 @@
 Hooks:PostHook(MoneyTweakData, "init", "red_money_moneytweakdata", function(self, tweak_data)
 
 	self.bag_values = {
-		red_money_vase = 50
 		default = 100,
 		money = 1500,
 		gold = 2875,

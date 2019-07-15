@@ -3,7 +3,7 @@ Hooks:PostHook(CarryTweakData, "init", "red_money_carry", function(self, tweak_d
 	self.pku_red_money_vase = {
 		type = "medium",
 		name_id = "pku_red_money_vase_name",
-		bag_value = "red_money_vase",
+		bag_value = "default",
 		visual_unit_name = "units/payday2/characters/npc_acc_loot_bag_1/npc_acc_loot_bag_1",
 		AI_carry = {SO_category = "enemies"}
 	}
