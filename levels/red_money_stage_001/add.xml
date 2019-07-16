@@ -1929,8 +1929,14 @@
 		<unit force="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x5x3" unload="true"/>
 	</add>
 	<add path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" type="unit">
-		<unit force="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" unload="true"/>
-		<object force="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" unload="true"/>
 		<material_config force="true" path="core/material_configs/hub_elements" unload="true"/>
+		<object force="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" unload="true"/>
+		<unit force="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" unload="true"/>
 	</add>
+	<add path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_elevator_shaft" type="unit">
+		<unit force="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_elevator_shaft" unload="true"/>
+		<object force="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_elevator_shaft" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior" unload="true"/>
+	</add>
+	<texture path="levels/mods/red_money_stage_001/cube_lights/600141"/>
 </table>

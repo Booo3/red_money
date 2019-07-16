@@ -1,0 +1,27 @@
+<table directory="assets">
+	<add path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_button" type="unit">
+		<unit force="true" path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_button" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_button" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_button" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_button" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_button_no_contour" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_display" type="unit">
+		<unit force="true" path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_display" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_display" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_keypad" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_display" unload="true"/>
+		<font force="true" path="fonts/font_digital" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_keypad" type="unit">
+		<unit force="true" path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_keypad" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_keypad" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_keypad" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" type="unit">
+		<unit force="true" path="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" unload="true"/>
+		<object force="true" path="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" unload="true"/>
+		<font force="true" path="fonts/font_caslon" unload="true"/>
+	</add>
+</table>

@@ -98,9 +98,9 @@
 		<packages/>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
-	<instance id="red_money_blimp">
+	<instance id="red_money_scr_keypad">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_blimp">
+		<include directory="assets/levels/instances/unique/red_money_key_pad">
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
 		</include>
@@ -143,6 +143,15 @@
 		<packages/>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
+	<instance id="red_money_hackbox">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_hackbox">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
 	<AddFiles directory="assets">
 		<movie path="movies/red_money_intro"/>
 	</AddFiles>
@@ -158,7 +167,7 @@
 		<hook file="assets/physic_effects/push_cube_effects/physics_fix.lua" source_file="lib/managers/dlcmanager"/>
 	</Hooks>
 	<Localization default="english.txt" directory="loc"/>
-	<contact id="the_chameleon" name_id="heist_contact_the_chameleon"/>
+	<contact assets_gui="guis/dlcs/berry/guis/preload_contact_locke" id="the_chameleon" name_id="heist_contact_the_chameleon" package="packages/contact_locke"/>
 	<level ai_group_type="america" ghost_bonus="0.1" id="red_money_stage_001" max_bags="100">
 		<add file="levels/red_money_stage_001/add.xml"/>
 		<assets>
@@ -244,6 +253,7 @@
 			<value_node value="levels/narratives/butcher/thebomb/stage_2/world/world"/>
 			<value_node value="levels/instances/unique/brb/brb_sniper_spawns/world/world"/>
 			<value_node value="levels/instances/shared/skm_negotiator/world/world"/>
+			<value_node value="levels/instances/unique/dah/dah_keypad/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

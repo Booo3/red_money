@@ -1,0 +1,323 @@
+<table name="red_money">
+	<instance id="red_money_heli">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_helicopter">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_numbers">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_numbers">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_sewer_escape_instance">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_sewer_escape">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_small_safe">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_safe">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_end_lvl_event">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_end_lvl_event">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_loot">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_loot">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_loot_secure_area">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_loot_secure_area">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_escape">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_escape">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_window">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_window">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_spawn">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_spawn">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_code">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_code">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_blimp">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_blimp">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_save_door_instance">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_save_door">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_kc">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_kc">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_vase_pickup">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_vase_pickup">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_hackbox">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_hackbox">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<instance id="red_money_keypad">
+		<add directory="assets"/>
+		<include directory="assets/levels/instances/unique/red_money_key_pad">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<AddFiles directory="assets">
+		<movie path="movies/red_money_intro"/>
+	</AddFiles>
+	<HeistMusic directory="assets/soundbanks/music" id="red_money_song">
+		<event allow_switch="true" alt_chance="0.5" alt_source="alt/stealth.ogg" alt_start_source="alt/stealth_start.ogg" name="setup" source="stealth.ogg" start_source="stealth_start.ogg"/>
+		<event allow_switch="true" alt_chance="0.5" alt_source="alt/control.ogg" alt_start_source="alt/control_start.ogg" name="control" source="control.ogg" start_source="control_start.ogg"/>
+		<event allow_switch="true" alt_chance="0.5" alt_source="alt/anticipation.ogg" alt_start_source="alt/anticipation_start.ogg" name="anticipation" source="anticipation.ogg" start_source="anticipation_start.ogg"/>
+		<event allow_switch="true" alt_chance="0.5" alt_source="alt/assault_alt.ogg" alt_start_source="alt/assault_start.ogg" name="assault" source="assault.ogg" start_source="assault_start.ogg"/>
+	</HeistMusic>
+	<Hooks>
+		<hook file="assets/physic_effects/push_cube_effects/physics_adjustments.lua" source_file="lib/tweak_data/dlctweakdata"/>
+		<hook file="assets/physic_effects/push_cube_effects/physics_settings.lua" source_file="lib/managers/menu/items/contractbrokerheistitem"/>
+		<hook file="assets/physic_effects/push_cube_effects/physics_fix.lua" source_file="lib/managers/dlcmanager"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc"/>
+	<contact id="the_chameleon" name_id="heist_contact_the_chameleon"/>
+	<level ai_group_type="america" ghost_bonus="0.1" id="red_money_stage_001" max_bags="100">
+		<add file="levels/red_money_stage_001/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="EquipmentsTweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
+		</hooks>
+		<include directory="levels/red_money_stage_001">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="props/props.continent" type="binary"/>
+			<file file="props/props.mission" type="binary"/>
+			<file file="shadow_caster/shadow_caster.continent" type="binary"/>
+			<file file="shadow_caster/shadow_caster.mission" type="binary"/>
+			<file file="instance_loaded_moddels/instance_loaded_moddels.continent" type="binary"/>
+			<file file="instance_loaded_moddels/instance_loaded_moddels.mission" type="binary"/>
+			<file file="colli/colli.continent" type="binary"/>
+			<file file="colli/colli.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="lights/lights.continent" type="binary"/>
+			<file file="lights/lights.mission" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/red_money_scr_room.environment" type="custom_xml"/>
+			<file file="environments/red_money_sewer.environment" type="custom_xml"/>
+			<file file="environments/red_money_outside_end_lvl_extrem.environment" type="custom_xml"/>
+			<file file="environments/red_money_outside_end_lvl.environment" type="custom_xml"/>
+			<file file="environments/red_money_mad.environment" type="custom_xml"/>
+			<file file="environments/red_money_inside.environment" type="custom_xml"/>
+			<file file="environments/red_money_back.environment" type="custom_xml"/>
+			<file file="environments/red_money_outside.environment" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<intro_event>
+			<value_node value=""/>
+		</intro_event>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="packages/narr_firestarter3"/>
+			<value_node value="packages/job_branchbank_random"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world_sounds"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/pc_only/pc_only"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/editor_only/editor_only"/>
+			<value_node value="packages/narr_big"/>
+			<value_node value="packages/job_big"/>
+			<value_node value="levels/narratives/bain/big/world"/>
+			<value_node value="levels/narratives/bain/big/world_sounds"/>
+			<value_node value="levels/narratives/bain/big/day/day"/>
+			<value_node value="levels/narratives/bain/big/night/night"/>
+			<value_node value="levels/narratives/bain/big/props/props"/>
+			<value_node value="levels/narratives/bain/big/world/world"/>
+			<value_node value="levels/narratives/bain/big/editor_only/editor_only"/>
+			<value_node value="levels/narratives/bain/help/env_art/env_art"/>
+			<value_node value="levels/narratives/bain/help/world"/>
+			<value_node value="packages/vlad_four_stores"/>
+			<value_node value="packages/job_four_stores"/>
+			<value_node value="levels/narratives/vlad/four_stores/world"/>
+			<value_node value="levels/narratives/vlad/four_stores/world_sounds"/>
+			<value_node value="levels/narratives/vlad/four_stores/world/world"/>
+			<value_node value="levels/narratives/vlad/four_stores/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/pet_planedrop/world/world"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_loot_crate/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_vault/world/world"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_2/world/world"/>
+			<value_node value="levels/instances/unique/brb/brb_sniper_spawns/world/world"/>
+			<value_node value="levels/instances/shared/skm_negotiator/world/world"/>
+			<value_node value="levels/instances/unique/kenaz/keypad/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/soundbanks">
+			<sounds directory="vo">
+				<sound id="red_money_briefing" path="red_money_briefing.ogg"/>
+			</sounds>
+		</sounds>
+	</level>
+	<narrative briefing_event="red_money_briefing" contact="the_chameleon" dlc="custom_heist" id="red_money">
+		<chain>
+			<table level_id="red_money_stage_001" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="red_money_intro"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+</table>
