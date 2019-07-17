@@ -20,9 +20,9 @@ Hooks:PostHook(InteractionTweakData, "init", "red_money_interactions", function(
     self.int_red_money_scr_c4 = {
         text_id = "int_red_money_scr_c4",
 		action_text_id = "int_red_money_scr_c4_action",
-		sound_start = "bar_keyboard",
-		sound_interupt = "bar_keyboard_cancel",
-		sound_done = "bar_keyboard_finished",
+		sound_start = "bar_bag_generic",
+		sound_interupt = "bar_bag_generic_cancel",
+		sound_done = "bar_bag_generic_finished",
 		special_equipment = "red_money_scr_c4",
 		equipment_text_id = "red_money_scr_c4_no_c4",
 		equipment_consume = true,

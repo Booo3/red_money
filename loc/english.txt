@@ -96,4 +96,8 @@
 "hud_action_taking_green_diamond"				:	"Taking the green diamond"
 "hud_carry_green_diamond"						:	"Green diamond"
 "int_red_force_open_gate"						:	"Hold $BTN_INTERACT to force open the gate"
+"red_money_scr_c4"								:	"C4"
+"pku_red_money_scr_c4"							:	"Hold $BTN_INTERACT to pickup C4"
+"int_red_money_scr_c4"							:	"Hold $BTN_INTERACT to place C4"
+"red_money_scr_c4_no_c4"						:	""
 }
