@@ -1,159 +1,363 @@
 <table name="red_money">
-	<instance id="red_money_heli">
+	<instance id="red_money_heli" orig_id="red_money_heli">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_helicopter">
+		<include directory="levels/instances/red_money_heli">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_numbers">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_numbers">
+		<include directory="levels/instances/red_money_numbers">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_sewer_escape_instance">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_sewer_escape">
+		<include directory="levels/instances/red_money_sewer_escape_instance">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_small_safe">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_safe">
+		<include directory="levels/instances/red_money_small_safe">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_end_lvl_event">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_end_lvl_event">
+		<include directory="levels/instances/red_money_end_lvl_event">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_loot">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_loot">
+		<include directory="levels/instances/red_money_loot">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_loot_secure_area">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_loot_secure_area">
+		<include directory="levels/instances/red_money_loot_secure_area">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_escape">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_escape">
+		<include directory="levels/instances/red_money_escape">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_window">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_window">
+		<include directory="levels/instances/red_money_window">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_spawn">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_spawn">
+		<include directory="levels/instances/red_money_spawn">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_code">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_code">
+		<include directory="levels/instances/red_money_code">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_scr_keypad">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_key_pad">
+		<include directory="levels/instances/red_money_scr_keypad">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_save_door_instance">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_save_door">
+		<include directory="levels/instances/red_money_save_door_instance">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_kc">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_kc">
+		<include directory="levels/instances/red_money_kc">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_vase_pickup">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_vase_pickup">
+		<include directory="levels/instances/red_money_vase_pickup">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="red_money_hackbox">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_hackbox">
+		<include directory="levels/instances/red_money_hackbox">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
-	<instance id="red_money_hackbox">
+	<instance id="red_money_blimp">
 		<add directory="assets"/>
-		<include directory="assets/levels/instances/unique/red_money_hackbox">
+		<include directory="levels/instances/red_money_blimp">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_key_pad">
+		<add directory="assets"/>
+		<include directory="levels/instances/red_money_key_pad">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<AddFiles directory="assets">
-		<movie path="movies/red_money_intro"/>
+		<movie path="red_alt_anticipation"/>
+		<movie path="red_alt_anticipation_start"/>
+		<movie path="red_alt_assault"/>
+		<movie path="red_alt_assault_start"/>
+		<movie path="red_alt_control"/>
+		<movie path="red_alt_control_start"/>
+		<movie path="red_alt_stealth"/>
+		<movie path="red_alt_stealth_start"/>
+		<movie path="red_anticipation"/>
+		<movie path="red_anticipation_start"/>
+		<movie path="red_assault"/>
+		<movie path="red_assault_start"/>
+		<movie path="red_control"/>
+		<movie path="red_control_start"/>
+		<movie path="red_stealth"/>
+		<movie path="red_stealth_start"/>
 	</AddFiles>
 	<HeistMusic directory="assets/soundbanks/music" id="red_money_song">
 		<event allow_switch="true" alt_chance="0.5" alt_source="alt/stealth.ogg" alt_start_source="alt/stealth_start.ogg" name="setup" source="stealth.ogg" start_source="stealth_start.ogg"/>
@@ -166,9 +370,11 @@
 		<hook file="assets/physic_effects/push_cube_effects/physics_settings.lua" source_file="lib/managers/menu/items/contractbrokerheistitem"/>
 		<hook file="assets/physic_effects/push_cube_effects/physics_fix.lua" source_file="lib/managers/dlcmanager"/>
 	</Hooks>
-	<Localization default="english.txt" directory="loc"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
 	<contact assets_gui="guis/dlcs/berry/guis/preload_contact_locke" id="the_chameleon" name_id="heist_contact_the_chameleon" package="packages/contact_locke"/>
-	<level ai_group_type="america" ghost_bonus="0.1" id="red_money_stage_001" max_bags="100">
+	<level ai_group_type="america" ghost_bonus="0.1" id="red_money_stage_001" intro_event="" max_bags="100" orig_id="red_money_stage_001">
 		<add file="levels/red_money_stage_001/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -190,25 +396,39 @@
 			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world_sounds.world_sounds" type="binary"/>
 			<file file="world_cameras.world_cameras" type="binary"/>
-			<file file="instance_loaded_moddels/instance_loaded_moddels.continent" type="binary"/>
-			<file file="instance_loaded_moddels/instance_loaded_moddels.mission" type="binary"/>
+			<file file="scr_probs/scr_probs.continent" type="binary"/>
+			<file file="scr_probs/scr_probs.mission" type="binary"/>
 			<file file="colli/colli.continent" type="binary"/>
 			<file file="colli/colli.mission" type="binary"/>
 			<file file="editor_only/editor_only.continent" type="binary"/>
 			<file file="editor_only/editor_only.mission" type="binary"/>
-			<file file="props/props.continent" type="binary"/>
-			<file file="props/props.mission" type="binary"/>
-			<file file="shadow_caster/shadow_caster.continent" type="binary"/>
-			<file file="shadow_caster/shadow_caster.mission" type="binary"/>
 			<file file="lights/lights.continent" type="binary"/>
 			<file file="lights/lights.mission" type="binary"/>
+			<file file="instance_loaded_moddels/instance_loaded_moddels.continent" type="binary"/>
+			<file file="instance_loaded_moddels/instance_loaded_moddels.mission" type="binary"/>
+			<file file="cubemaps/cubemaps.continent" type="binary"/>
+			<file file="cubemaps/cubemaps.mission" type="binary"/>
+			<file file="props/props.continent" type="binary"/>
+			<file file="props/props.mission" type="binary"/>
 			<file file="scr_props/scr_props.continent" type="binary"/>
 			<file file="scr_props/scr_props.mission" type="binary"/>
+			<file file="shadow_caster/shadow_caster.continent" type="binary"/>
+			<file file="shadow_caster/shadow_caster.mission" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
-			<file file="scr_probs/scr_probs.continent" type="binary"/>
-			<file file="scr_probs/scr_probs.mission" type="binary"/>
 			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/red_money_inside_back_2.environment" type="custom_xml"/>
+			<file file="environments/red_money_outside_roof_top.environment" type="custom_xml"/>
+			<file file="environments/red_money_outside_chi_back.environment" type="custom_xml"/>
+			<file file="environments/red_money_outside_truck.environment" type="custom_xml"/>
+			<file file="environments/red_money_inside_002_001.environment" type="custom_xml"/>
+			<file file="environments/red_money_inside_002_002.environment" type="custom_xml"/>
+			<file file="environments/red_money_inside_teller.environment" type="custom_xml"/>
+			<file file="environments/red_money_inside_002.environment" type="custom_xml"/>
+			<file file="environments/red_money_inside_001.environment" type="custom_xml"/>
+			<file file="environments/red_money_inside_back.environment" type="custom_xml"/>
+			<file file="environments/red_money_outside_main.environment" type="custom_xml"/>
+			<file file="environments/red_money_outside.environment" type="custom_xml"/>
 			<file file="environments/scr_env.environment" type="custom_xml"/>
 			<file file="environments/red_money_scr_room.environment" type="custom_xml"/>
 			<file file="environments/red_money_sewer.environment" type="custom_xml"/>
@@ -216,13 +436,8 @@
 			<file file="environments/red_money_outside_end_lvl.environment" type="custom_xml"/>
 			<file file="environments/red_money_mad.environment" type="custom_xml"/>
 			<file file="environments/red_money_inside.environment" type="custom_xml"/>
-			<file file="environments/red_money_back.environment" type="custom_xml"/>
-			<file file="environments/red_money_outside.environment" type="custom_xml"/>
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<intro_event>
-			<value_node value=""/>
-		</intro_event>
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>

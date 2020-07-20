@@ -1,0 +1,16 @@
+<table directory="assets">
+	<add path="units/world/props/glass_shatter/glass_shatter" type="unit">
+		<unit force="true" path="units/world/props/glass_shatter/glass_shatter" unload="true"/>
+		<object force="true" path="units/world/props/glass_shatter/glass_shatter" unload="true"/>
+		<material_config force="true" path="units/world/props/glass_shatter/glass_shatter" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/ind/ind_ext_window_c_openable/ind_ext_window_c_openable" type="unit">
+		<material_config force="true" path="units/payday2/architecture/ind/ind_ext_window_c_openable/ind_ext_window_c_openable" unload="true"/>
+		<material_config force="true" path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<material_config force="true" path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<material_config force="true" path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<object force="true" path="units/payday2/architecture/ind/ind_ext_window_c_openable/ind_ext_window_c_openable" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/architecture/ind/ind_ext_window_c_openable/ind_ext_window_c_openable" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/ind/ind_ext_window_c_openable/ind_ext_window_c_openable" unload="true"/>
+	</add>
+</table>

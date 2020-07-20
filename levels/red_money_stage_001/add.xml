@@ -1939,4 +1939,21 @@
 		<material_config force="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior" unload="true"/>
 	</add>
 	<texture path="levels/mods/red_money_stage_001/cube_lights/600141"/>
+	<texture path="levels/mods/red_money_stage_001/cube_lights/600142"/>
+	<texture path="levels/mods/red_money_stage_001/cubemaps/1000000"/>
+	<texture path="levels/mods/red_money_stage_001/cubemaps/1000001"/>
+	<texture path="levels/mods/red_money_stage_001/cubemaps/1000002"/>
+	<texture path="levels/mods/red_money_stage_001/cubemaps/1000003"/>
+	<texture path="levels/mods/red_money_stage_001/cubemaps/1000004"/>
+	<texture path="levels/mods/red_money_stage_001/cubemaps/1000005"/>
+	<texture path="levels/mods/red_money_stage_001/cubemaps/1000006"/>
+	<texture path="levels/mods/red_money_stage_001/cubemaps/1000007"/>
+	<texture path="levels/mods/red_money_stage_001/cubemaps/1000008"/>
+	<texture path="levels/mods/red_money_stage_001/cubemaps/1000009"/>
+	<texture path="levels/mods/red_money_stage_001/cubemaps/1000010"/>
+	<texture path="levels/mods/red_money_stage_001/cubemaps/1000011"/>
+	<texture path="levels/mods/red_money_stage_001/cubemaps/104247"/>
+	<texture path="levels/mods/red_money_stage_001/cubemaps/104319"/>
+	<texture path="levels/mods/red_money_stage_001/cube_lights/600158"/>
+	<texture path="levels/mods/red_money_stage_001/cube_lights/600159"/>
 </table>

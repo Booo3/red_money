@@ -1,0 +1,8 @@
+<table directory="assets">
+	<add path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4" type="unit">
+		<unit force="true" path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4" unload="true"/>
+		<object force="true" path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4" unload="true"/>
+		<material_config force="true" path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4" unload="true"/>
+	</add>
+</table>

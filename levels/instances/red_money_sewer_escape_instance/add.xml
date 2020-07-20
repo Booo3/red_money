@@ -1,0 +1,32 @@
+<table directory="assets">
+	<add path="units/dev_tools/level_tools/door_blocker/door_blocker" type="unit">
+		<material_config force="true" path="core/material_configs/hub_elements" unload="true"/>
+		<object force="true" path="units/dev_tools/level_tools/door_blocker/door_blocker" unload="true"/>
+		<unit force="true" path="units/dev_tools/level_tools/door_blocker/door_blocker" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" type="unit">
+		<material_config force="true" path="core/material_configs/hub_elements" unload="true"/>
+		<object force="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" unload="true"/>
+		<unit force="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" type="unit">
+		<material_config force="true" path="core/material_configs/hub_elements" unload="true"/>
+		<object force="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" unload="true"/>
+		<unit force="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" unload="true"/>
+	</add>
+	<add path="units/payday2/mockup/occluder_plane_4x8" type="unit">
+		<material_config force="true" path="units/payday2/mockup/occluder_plane" unload="true"/>
+		<object force="true" path="units/payday2/mockup/occluder_plane_4x8" unload="true"/>
+		<unit force="true" path="units/payday2/mockup/occluder_plane_4x8" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" type="unit">
+		<material_config force="true" path="core/material_configs/hub_elements" unload="true"/>
+		<object force="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" unload="true"/>
+		<unit force="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" type="unit">
+		<unit force="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" unload="true"/>
+		<object force="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" unload="true"/>
+		<material_config force="true" path="core/material_configs/hub_elements" unload="true"/>
+	</add>
+</table>
