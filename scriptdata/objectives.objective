@@ -30,4 +30,11 @@
 	<objective description="red_money_stealth_obj_006_desc" id="red_money_stealth_obj_006" prio="1" text="red_money_stealth_obj_006" xp_weight="1"/>
 	<objective description="red_money_stealth_obj_007_desc" id="red_money_stealth_obj_007" prio="1" text="red_money_stealth_obj_007" xp_weight="1"/>
 	<objective description="red_money_stealth_obj_008_desc" id="red_money_stealth_obj_008" prio="1" text="red_money_stealth_obj_008" xp_weight="1"/>
+	<objective description="red_money_stealth_obj_006_1_desc" id="red_money_stealth_obj_006_1" text="red_money_stealth_obj_006_1"/>
+	<objective description="red_money_stealth_obj_007_01_desc" id="red_money_stealth_obj_007_01" text="red_money_stealth_obj_007_01"/>
+	<objective description="red_money_stealth_obj_007_02_desc" id="red_money_stealth_obj_007_02" text="red_money_stealth_obj_007_02"/>
+	<objective description="red_money_stealth_obj_008_alt_desc" id="red_money_stealth_obj_008_alt" text="red_money_stealth_obj_008_alt"/>
+	<objective description="red_money_spc_esc_001_desc" id="red_money_spc_esc_001" text="red_money_spc_esc_001"/>
+	<objective description="red_money_spc_esc_002_desc" id="red_money_spc_esc_002" text="red_money_spc_esc_002"/>
+	<objective description="red_money_spc_esc_003_desc" id="red_money_spc_esc_003" text="red_money_spc_esc_003"/>
 </table>

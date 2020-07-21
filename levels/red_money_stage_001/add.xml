@@ -1956,4 +1956,8 @@
 	<texture path="levels/mods/red_money_stage_001/cubemaps/104319"/>
 	<texture path="levels/mods/red_money_stage_001/cube_lights/600158"/>
 	<texture path="levels/mods/red_money_stage_001/cube_lights/600159"/>
+	<texture path="levels/mods/red_money_stage_001/cube_lights/600161"/>
+	<texture path="levels/mods/red_money_stage_001/cube_lights/600160"/>
+	<texture path="levels/mods/red_money_stage_001/cube_lights/600162"/>
+	<texture path="levels/mods/red_money_stage_001/cube_lights/600163"/>
 </table>

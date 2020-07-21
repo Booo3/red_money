@@ -23,6 +23,7 @@
 	"red_money_loud_winch_pku_desc":"Wait for the helicopter to bring the winch parts",
 	"heist_red_money_stage_001_brief":"The one who reads this is dumb",
 	"red_money_stealth_obj_006":"Open the vault",
+	"red_money_stealth_obj_006_1":"Take the Diamond",
 	"red_money_loud_drill_003_desc":"Wait for drill to finish",
 	"heist_red_money_brief":"The one who reads this is dumb",
 	"pku_red_money_vase":"Hold $BTN_INTERACT to pickup vase",
@@ -30,6 +31,7 @@
 	"cn_menu_custom_heist":"Custom Heist",
 	"red_money_loud_ther_desc":"Place the termite",
 	"red_money_stealth_obj_008":"Escape or get more loot",
+	"red_money_stealth_obj_008_alt":"Escape",
 	"red_money_stealth_obj_003_002":"Use the keycard at the security door",
 	"red_money_loud_c4":"Place the c4",
 	"red_money_loud_drill_003":"Wait for drill to finish",
@@ -76,6 +78,8 @@
 	"red_money_stealth_obj_001_desc":"Go to the bank",
 	"red_money_winch_002_desc":"Complete building the winch",
 	"red_money_stealth_obj_007":"Secure the diamond",
+	"red_money_stealth_obj_007_01":"Go through the Tunnel",
+	"red_money_stealth_obj_007_02":"Get into the Tunel or get more loot",
 	"red_money_stealth_obj_003_001_desc":"Find a keycard for the door",
 	"red_money_winch_007":"Restart the winch",
 	"red_money_winch_005_desc":"Start the winch",
@@ -85,5 +89,8 @@
 	"red_money_stealth_obj_005_002_desc":"Bypass the system",
 	"red_money_loud_ther_pku_desc":"Wait for the helicopter to bring the termite",
 	"red_money_winch_003_desc":"Screw in the screws",
-	"red_money_scr_c4":"C4"
+	"red_money_scr_c4":"C4",
+	"red_money_spc_esc_001":"Build the cage",
+	"red_money_spc_esc_002":"Secure the Loot",
+	"red_money_spc_esc_003":"Wait for the plane"
 }
