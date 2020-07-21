@@ -504,7 +504,7 @@
 			<value_node value="nothing"/>
 		</crimenet_callouts>
 		<crimenet_videos>
-			<value_node value="red_money_intro"/>
+			<value_node value="cn_branchbank2"/>
 		</crimenet_videos>
 		<debrief_event/>
 		<experience_mul>
