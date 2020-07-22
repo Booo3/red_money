@@ -92,5 +92,11 @@
 	"red_money_scr_c4":"C4",
 	"red_money_spc_esc_001":"Build the cage",
 	"red_money_spc_esc_002":"Secure the Loot",
-	"red_money_spc_esc_003":"Wait for the plane"
+	"red_money_spc_esc_003":"Wait for the plane",
+	"menu_jukebox_armageddon_song":"Armageddon (Entropy Zero Remix)",
+	"menu_jukebox_screen_armageddon_song":"Armageddon (Entropy Zero Remix)",
+	"menu_jukebox_armageddon_menu":"Armageddon (Entropy Zero Remix)",
+	"menu_jukebox_screen_armageddon_menu":"Armageddon (Entropy Zero Remix)",
+	"menu_jukebox_shadows_menu":"Shadows",
+	"menu_jukebox_screen_shadows_menu":"Shadows"
 }

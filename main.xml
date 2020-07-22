@@ -359,12 +359,14 @@
 		<movie path="red_stealth"/>
 		<movie path="red_stealth_start"/>
 	</AddFiles>
-	<HeistMusic directory="assets/soundbanks/music" id="red_money_song">
-		<event allow_switch="true" alt_chance="0.5" alt_source="alt/stealth.ogg" alt_start_source="alt/stealth_start.ogg" name="setup" source="stealth.ogg" start_source="stealth_start.ogg"/>
-		<event allow_switch="true" alt_chance="0.5" alt_source="alt/control.ogg" alt_start_source="alt/control_start.ogg" name="control" source="control.ogg" start_source="control_start.ogg"/>
-		<event allow_switch="true" alt_chance="0.5" alt_source="alt/anticipation.ogg" alt_start_source="alt/anticipation_start.ogg" name="anticipation" source="anticipation.ogg" start_source="anticipation_start.ogg"/>
-		<event allow_switch="true" alt_chance="0.5" alt_source="alt/assault_alt.ogg" alt_start_source="alt/assault_start.ogg" name="assault" source="assault.ogg" start_source="assault_start.ogg"/>
-	</HeistMusic>
+	<HeistMusic id="armageddon_song" directory="assets/soundbanks/music">
+        <event name="setup" start_source="steath/sp/stealth_start.ogg" source="steath/sp/stealth.ogg"/>
+        <event name="anticipation" start_source="assault/anticipation_start.ogg" source="assault/anticipation.ogg"/>
+        <event allow_switch="true" alt_chance="0.3" alt_source="assault/vo/assault.ogg" name="assault" start_source="assault/assault_start.ogg" source="assault/assault.ogg"/>
+        <event name="control" start_source="assault/control_start.ogg" source="assault/control.ogg"/>
+    </HeistMusic>
+    <MenuMusic id="armageddon_menu" start_source="assets/soundbanks/music/assault/assault_start_menu.ogg" source="assets/soundbanks/music/assault/assault.ogg"/>
+    <MenuMusic id="shadows_menu" start_source="assets/soundbanks/music/steath/sp/control_start.ogg" source="assets/soundbanks/music/steath/sp/control.ogg"/>
 	<Hooks>
 		<hook file="assets/physic_effects/push_cube_effects/physics_adjustments.lua" source_file="lib/tweak_data/dlctweakdata"/>
 		<hook file="assets/physic_effects/push_cube_effects/physics_settings.lua" source_file="lib/managers/menu/items/contractbrokerheistitem"/>
