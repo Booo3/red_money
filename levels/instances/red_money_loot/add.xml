@@ -11,10 +11,16 @@
 		<unit force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
 	</add>
 	<add path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" type="unit">
-		<unit force="true" path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
-		<object force="true" path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
-		<material_config force="true" path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
-		<sequence_manager force="true" path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
 		<effect force="true" load="true" path="effects/payday2/particles/grab/grab_gold" unload="true"/>
+		<material_config force="true" path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
+		<object force="true" path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
+		<unit force="true" path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box_01" type="unit">
+		<unit path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box_01" unload="true"/>
+		<object path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box_01" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box" unload="true"/>
 	</add>
 </table>
