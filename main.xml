@@ -343,6 +343,44 @@
 	</instance>
 	<MenuMusic id="armageddon_menu" source="assets/soundbanks/music/assault/assault.ogg" start_source="assets/soundbanks/music/assault/assault_start_menu.ogg"/>
 	<MenuMusic id="shadows_menu" source="assets/soundbanks/music/steath/sp/control.ogg" start_source="assets/soundbanks/music/steath/sp/control_start.ogg"/>
+	<instance id="red_money_window_wood_instance">
+		<add file="levels/instances/red_money_window_wood_instance/add.xml"/>
+		<include directory="levels/instances/red_money_window_wood_instance">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="red_money_plank_pku">
+		<add directory="assets"/>
+		<include directory="levels/instances/red_money_plank_pku">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
 	<AddFiles directory="assets">
 		<movie path="red_alt_anticipation"/>
 		<movie path="red_alt_anticipation_start"/>
@@ -376,7 +414,7 @@
 		<loc file="english.txt" language="english"/>
 	</Localization>
 	<contact assets_gui="guis/dlcs/berry/guis/preload_contact_locke" id="the_chameleon" name_id="heist_contact_the_chameleon" package="packages/contact_locke"/>
-	<level ai_group_type="america" ghost_bonus="0.1" id="red_money_stage_001" intro_event="" max_bags="100" music="no_music" music_ext_start="stop_all_music" orig_id="red_money_stage_001">
+	<level ai_group_type="america" ghost_bonus="0.1" id="red_money_stage_001" max_bags="100" music="no_music" music_ext_start="stop_all_music" orig_id="red_money_stage_001">
 		<add file="levels/red_money_stage_001/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -477,16 +515,357 @@
 			<value_node value="levels/instances/unique/brb/brb_sniper_spawns/world/world"/>
 			<value_node value="levels/instances/shared/skm_negotiator/world/world"/>
 			<value_node value="levels/instances/unique/dah/dah_keypad/world/world"/>
+			<value_node value="levels/narratives/h_watchdogs/stage_1/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
-		<sounds directory="assets/soundbanks">
-			<sounds directory="vo">
-				<sound id="red_money_briefing" path="red_money_briefing.ogg"/>
+		<sounds directory="assets/soundbanks/vo">
+			<sound id="good_music" path="good_music.ogg" volume="1"/>
+			<sounds directory="loud">
+				<sounds directory="build_the_cage">
+					<sound id="build_the_cage_001" path="loud_cage_parts_are_here_go_put_them_together_so_the_plane_has_something_grab_onto_1.ogg" volume="1"/>
+					<sound id="build_the_cage_002" path="loud_cage_parts_are_here_go_put_them_together_so_the_plane_has_something_grab_onto_2.ogg" volume="1"/>
+					<sound id="build_the_cage_003" path="loud_cage_parts_are_here_go_put_them_together_so_the_plane_has_something_grab_onto_3.ogg" volume="1"/>
+					<sound id="build_the_cage_004" path="loud_the_parts_have_arrived_go_build_the_cage_so_we_can_get_that_loot_out_of_here_1.ogg" volume="1"/>
+					<sound id="build_the_cage_005" path="loud_the_parts_have_arrived_go_build_the_cage_so_we_can_get_that_loot_out_of_here_2.ogg" volume="1"/>
+					<sound id="build_the_cage_006" path="loud_the_parts_have_arrived_go_build_the_cage_so_we_can_get_that_loot_out_of_here_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="complete_building_the_winch">
+					<sound id="complete_building_the_winch_001" path="loud_build_the_winch_and_get_that_door_off.ogg" volume="1"/>
+					<sound id="complete_building_the_winch_002" path="loud_come_on_get_the_winch_going_and_get_into_that_vault_1.ogg" volume="1"/>
+					<sound id="complete_building_the_winch_003" path="loud_come_on_get_the_winch_going_and_get_into_that_vault_2.ogg" volume="1"/>
+					<sound id="complete_building_the_winch_004" path="loud_come_on_get_the_winch_going_and_get_into_that_vault_3.ogg" volume="1"/>
+					<sound id="complete_building_the_winch_005" path="loud_come_on_get_the_winch_going_and_get_into_that_vault_4.ogg" volume="1"/>
+					<sound id="complete_building_the_winch_006" path="loud_come_on_get_the_winch_going_and_get_into_that_vault_5.ogg" volume="1"/>
+					<sound id="complete_building_the_winch_007" path="loud_get_that_winch_set_up_and_working_1.ogg" volume="1"/>
+					<sound id="complete_building_the_winch_008" path="loud_get_that_winch_set_up_and_working_2.ogg" volume="1"/>
+					<sound id="complete_building_the_winch_009" path="loud_get_that_winch_set_up_and_working_3.ogg" volume="1"/>
+					<sound id="complete_building_the_winch_010" path="loud_get_that_winch_set_up_and_working_4.ogg" volume="1"/>
+					<sound id="complete_building_the_winch_011" path="loud_get_that_winch_set_up_and_working_5.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="enter_the_bank">
+					<sound id="enter_the_bank_001" path="loud_okay_lets_do_this_heads_up_guys.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="escape_after_the_tunnel">
+					<sound id="escape_after_the_tunnel_001" path="loud_i_know_it_smelled_bad_but_youre_home_free_now_good_work_1.ogg" volume="1"/>
+					<sound id="escape_after_the_tunnel_002" path="loud_i_know_it_smelled_bad_but_youre_home_free_now_good_work_2.ogg" volume="1"/>
+					<sound id="escape_after_the_tunnel_003" path="loud_you_got_through_time_to_get_home_1.ogg" volume="1"/>
+					<sound id="escape_after_the_tunnel_004" path="loud_you_got_through_time_to_get_home_2.ogg" volume="1"/>
+					<sound id="escape_after_the_tunnel_005" path="loud_you_got_through_time_to_get_home_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="escape_or_get_more_loot">
+					<sound id="escape_or_get_more_loot_001" path="loud_escape_is_available_get_out_of_there_or_stick_around_for_some_more_loot_1.ogg" volume="1"/>
+					<sound id="escape_or_get_more_loot_002" path="loud_escape_is_available_get_out_of_there_or_stick_around_for_some_more_loot_2.ogg" volume="1"/>
+					<sound id="escape_or_get_more_loot_003" path="loud_escape_is_available_get_out_of_there_or_stick_around_for_some_more_loot_3.ogg" volume="1"/>
+					<sound id="escape_or_get_more_loot_004" path="loud_escape_is_available_get_out_of_there_or_stick_around_for_some_more_loot_4.ogg" volume="1"/>
+					<sound id="escape_or_get_more_loot_005" path="loud_right_youve_got_what_we_came_for_you_can_run_now_or_grab_some_more_for_the_road_1.ogg" volume="1"/>
+					<sound id="escape_or_get_more_loot_006" path="loud_right_youve_got_what_we_came_for_you_can_run_now_or_grab_some_more_for_the_road_2.ogg" volume="1"/>
+					<sound id="escape_or_get_more_loot_007" path="loud_right_youve_got_what_we_came_for_you_can_run_now_or_grab_some_more_for_the_road_3.ogg" volume="1"/>
+					<sound id="escape_or_get_more_loot_008" path="loud_we_got_it_time_to_go_or_if_you_want_you_could_empty_the_place_1.ogg" volume="1"/>
+					<sound id="escape_or_get_more_loot_009" path="loud_we_got_it_time_to_go_or_if_you_want_you_could_empty_the_place_2.ogg" volume="1"/>
+					<sound id="escape_or_get_more_loot_010" path="loud_we_got_it_time_to_go_or_if_you_want_you_could_empty_the_place_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="get_into_the_tunnel">
+					<sound id="get_into_the_tunnel_001" path="loud_damn_cops_are_swarming_this_place_well_if_you_cant_go_through_them_go_under_them_1.ogg" volume="1"/>
+					<sound id="get_into_the_tunnel_002" path="loud_damn_cops_are_swarming_this_place_well_if_you_cant_go_through_them_go_under_them_2.ogg" volume="1"/>
+					<sound id="get_into_the_tunnel_003" path="loud_ugh_to_many_cops_everywhere_you_gotta_go_through_the_sewers_to_escape.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="go_through_the_tunnel">
+					<sound id="go_through_the_tunnel_001" path="loud_hold_your_noses_and_get_through_that_tunnel_quickly_1.ogg" volume="1"/>
+					<sound id="go_through_the_tunnel_002" path="loud_hold_your_noses_and_get_through_that_tunnel_quickly_2.ogg" volume="1"/>
+					<sound id="go_through_the_tunnel_003" path="loud_i_know_it_smells_but_this_is_the_only_way_out_of_here_1.ogg" volume="1"/>
+					<sound id="go_through_the_tunnel_004" path="loud_i_know_it_smells_but_this_is_the_only_way_out_of_here_2.ogg" volume="1"/>
+					<sound id="go_through_the_tunnel_005" path="loud_ok_almost_there_just_gotta_get_through_here_1.ogg" volume="1"/>
+					<sound id="go_through_the_tunnel_006" path="loud_ok_almost_there_just_gotta_get_through_here_2.ogg" volume="1"/>
+					<sound id="go_through_the_tunnel_007" path="loud_ok_almost_there_just_gotta_get_through_here_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="go_to_the_vault">
+					<sound id="go_to_the_vault_001" path="loud_damn_the_alarm_has_been_tripped_I_guess_it_cant_be_helped_go_get_to_the_vault_1.ogg" volume="1"/>
+					<sound id="go_to_the_vault_002" path="loud_thats_the_sound_of_the_alarm_move_your_ass_to_the_vault_1.ogg" volume="1"/>
+					<sound id="go_to_the_vault_003" path="loud_thats_the_sound_of_the_alarm_move_your_ass_to_the_vault_2.ogg" volume="1"/>
+					<sound id="go_to_the_vault_004" path="loud_thats_the_sound_of_the_alarm_move_your_ass_to_the_vault_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="open_the_vault">
+					<sound id="open_the_vault_001" path="loud_almost_there_just_open_the_vault_1.ogg" volume="1"/>
+					<sound id="open_the_vault_002" path="loud_almost_there_just_open_the_vault_2.ogg" volume="1"/>
+					<sound id="open_the_vault_003" path="loud_get_to_that_vault_and_open_it_1.ogg" volume="1"/>
+					<sound id="open_the_vault_004" path="loud_get_to_that_vault_and_open_it_2.ogg" volume="1"/>
+					<sound id="open_the_vault_005" path="loud_just_open_the_vault_and_get_that_loot_1.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="place_down_drill">
+					<sound id="place_down_drill_001" path="loud_get_that_drill_to_the_vault_1.ogg" volume="1"/>
+					<sound id="place_down_drill_002" path="loud_get_that_drill_to_the_vault_2.ogg" volume="1"/>
+					<sound id="place_down_drill_003" path="loud_get_that_drill_to_the_vault_3.ogg" volume="1"/>
+					<sound id="place_down_drill_004" path="loud_plant_the_drill_on_the_door_and_break_into_that_vault_1.ogg" volume="1"/>
+					<sound id="place_down_drill_005" path="loud_plant_the_drill_on_the_door_and_break_into_that_vault_2.ogg" volume="1"/>
+					<sound id="place_down_drill_006" path="loud_plant_the_drill_on_the_door_and_break_into_that_vault_3.ogg" volume="1"/>
+					<sound id="place_down_drill_007" path="loud_plant_the_drill_on_the_door_and_break_into_that_vault_4.ogg" volume="1"/>
+					<sound id="place_down_drill_008" path="loud_plant_the_drill_on_the_door_and_break_into_that_vault_5.ogg" volume="1"/>
+					<sound id="place_down_drill_009" path="loud_plant_the_drill_on_the_door_and_break_into_that_vault_6.ogg" volume="1"/>
+					<sound id="place_down_drill_010" path="loud_plant_the_drill_on_the_door_and_break_into_that_vault_7.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="place_the_c4">
+					<sound id="place_the_c4_001" path="loud_place_the_c4_on_the_door_and_crack_that_lock_1.ogg" volume="1"/>
+					<sound id="place_the_c4_002" path="loud_place_the_c4_on_the_door_and_crack_that_lock_2.ogg" volume="1"/>
+					<sound id="place_the_c4_003" path="loud_place_the_c4_on_the_door_and_crack_that_lock_3.ogg" volume="1"/>
+					<sound id="place_the_c4_004" path="loud_place_the_c4_on_the_door_and_crack_that_lock_4.ogg" volume="1"/>
+					<sound id="place_the_c4_005" path="loud_place_the_c4_on_the_door_and_crack_that_lock_5.ogg" volume="1"/>
+					<sound id="place_the_c4_006" path="loud_you_have_the_c4_bring_it_to_the_vault_and_crack_this_door_1.ogg" volume="1"/>
+					<sound id="place_the_c4_007" path="loud_you_have_the_c4_bring_it_to_the_vault_and_crack_this_door_2.ogg" volume="1"/>
+					<sound id="place_the_c4_008" path="loud_you_have_the_c4_bring_it_to_the_vault_and_crack_this_door_3.ogg" volume="1"/>
+					<sound id="place_the_c4_009" path="loud_you_have_the_c4_bring_it_to_the_vault_and_crack_this_door_4.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="place_the_thermite">
+					<sound id="place_the_thermite_001" path="loud_place_it_down_and_watch_it_burn_1.ogg" volume="1"/>
+					<sound id="place_the_thermite_002" path="loud_place_it_down_and_watch_it_burn_2.ogg" volume="1"/>
+					<sound id="place_the_thermite_003" path="loud_place_it_down_and_watch_it_burn_3.ogg" volume="1"/>
+					<sound id="place_the_thermite_004" path="loud_place_it_down_and_watch_it_burn_4.ogg" volume="1"/>
+					<sound id="place_the_thermite_005" path="loud_place_it_down_and_watch_it_burn_5.ogg" volume="1"/>
+					<sound id="place_the_thermite_006" path="loud_place_it_down_and_watch_it_burn_6.ogg" volume="1"/>
+					<sound id="place_the_thermite_007" path="loud_set_that_door_ablaze_and_get_into_that_vault_1.ogg" volume="1"/>
+					<sound id="place_the_thermite_008" path="loud_set_that_door_ablaze_and_get_into_that_vault_2.ogg" volume="1"/>
+					<sound id="place_the_thermite_009" path="loud_set_that_door_ablaze_and_get_into_that_vault_3.ogg" volume="1"/>
+					<sound id="place_the_thermite_010" path="loud_set_that_door_ablaze_and_get_into_that_vault_4.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="restart_the_winch">
+					<sound id="restart_the_winch_001" path="loud_agh_stupid_cops_they_stopped_the_winch_get_it_going_again_1.ogg" volume="1"/>
+					<sound id="restart_the_winch_002" path="loud_agh_stupid_cops_they_stopped_the_winch_get_it_going_again_2.ogg" volume="1"/>
+					<sound id="restart_the_winch_003" path="loud_shit_cops_shut_down_the_winch_get_it_started_again.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="screw_in_the_screws">
+					<sound id="screw_in_the_screws_001" path="loud_alright_now_get_those_screws_in_1.ogg" volume="1"/>
+					<sound id="screw_in_the_screws_002" path="loud_alright_now_get_those_screws_in_2.ogg" volume="1"/>
+					<sound id="screw_in_the_screws_003" path="loud_alright_now_get_those_screws_in_3.ogg" volume="1"/>
+					<sound id="screw_in_the_screws_004" path="loud_alright_now_get_those_screws_in_4.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="secure_the_diamond">
+					<sound id="secure_the_diamond_001" path="loud_hah_we_got_it_time_to_get_out_of_here_1.ogg" volume="1"/>
+					<sound id="secure_the_diamond_002" path="loud_hah_we_got_it_time_to_get_out_of_here_2.ogg" volume="1"/>
+					<sound id="secure_the_diamond_003" path="loud_hah_we_got_it_time_to_get_out_of_here_3.ogg" volume="1"/>
+					<sound id="secure_the_diamond_004" path="loud_hah_we_got_it_time_to_get_out_of_here_4.ogg" volume="1"/>
+					<sound id="secure_the_diamond_005" path="loud_yes_we_got_what_we_came_for_lets_get_moving_quickly_1.ogg" volume="1"/>
+					<sound id="secure_the_diamond_006" path="loud_yes_we_got_what_we_came_for_lets_get_moving_quickly_2.ogg" volume="1"/>
+					<sound id="secure_the_diamond_007" path="loud_yes_we_got_what_we_came_for_lets_get_moving_quickly_3.ogg" volume="1"/>
+					<sound id="secure_the_diamond_008" path="loud_yes_we_got_what_we_came_for_quick_lets_get_moving_1.ogg" volume="1"/>
+					<sound id="secure_the_diamond_009" path="loud_yes_we_got_what_we_came_for_quick_lets_get_moving_2.ogg" volume="1"/>
+					<sound id="secure_the_diamond_010" path="loud_yes_we_got_what_we_came_for_quick_lets_get_moving_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="secure_the_loot_plane">
+					<sound id="secure_the_loot_plane_001" path="loud_drop_that_loot_in_the_cage_and_signal_the_plane_1.ogg" volume="1"/>
+					<sound id="secure_the_loot_plane_002" path="loud_drop_that_loot_in_the_cage_and_signal_the_plane_2.ogg" volume="1"/>
+					<sound id="secure_the_loot_plane_003" path="loud_drop_that_loot_in_the_cage_and_signal_the_plane_3.ogg" volume="1"/>
+					<sound id="secure_the_loot_plane_004" path="loud_drop_that_loot_in_the_cage_and_signal_the_plane_4.ogg" volume="1"/>
+					<sound id="secure_the_loot_plane_005" path="loud_drop_that_loot_in_the_cage_and_signal_the_plane_5.ogg" volume="1"/>
+					<sound id="secure_the_loot_plane_006" path="loud_drop_that_loot_in_the_cage_and_signal_the_plane_6.ogg" volume="1"/>
+					<sound id="secure_the_loot_plane_007" path="loud_signal_the_plain_once_youve_dropped_the_loot_in_the_cage_1.ogg" volume="1"/>
+					<sound id="secure_the_loot_plane_008" path="loud_signal_the_plain_once_youve_dropped_the_loot_in_the_cage_2.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="set_up_drill">
+					<sound id="set_up_drill_001" path="loud_fire_up_the_drill_and_bust_into_that_vault_1.ogg" volume="1"/>
+					<sound id="set_up_drill_002" path="loud_fire_up_the_drill_and_bust_into_that_vault_2.ogg" volume="1"/>
+					<sound id="set_up_drill_003" path="loud_fire_up_the_drill_and_bust_into_that_vault_3.ogg" volume="1"/>
+					<sound id="set_up_drill_004" path="loud_okay_get_the_drill_set_up_and_get_into_that_vault_1.ogg" volume="1"/>
+					<sound id="set_up_drill_005" path="loud_okay_get_the_drill_set_up_and_get_into_that_vault_2.ogg" volume="1"/>
+					<sound id="set_up_drill_006" path="loud_okay_get_the_drill_set_up_and_get_into_that_vault_3.ogg" volume="1"/>
+					<sound id="set_up_drill_007" path="loud_start_the_drill_up_and_get_that_door_open.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="start_building_the_winch">
+					<sound id="start_building_the_winch_001" path="loud_use_those_parts_to_set_up_the_winch_1.ogg" volume="1"/>
+					<sound id="start_building_the_winch_002" path="loud_use_those_parts_to_set_up_the_winch_2.ogg" volume="1"/>
+					<sound id="start_building_the_winch_003" path="loud_use_those_parts_to_set_up_the_winch_3.ogg" volume="1"/>
+					<sound id="start_building_the_winch_004" path="loud_you_got_the_parts_good_start_building_that_winch_1.ogg" volume="1"/>
+					<sound id="start_building_the_winch_005" path="loud_you_got_the_parts_good_start_building_that_winch_2.ogg" volume="1"/>
+					<sound id="start_building_the_winch_006" path="loud_you_got_the_parts_good_start_building_that_winch_3.ogg" volume="1"/>
+					<sound id="start_building_the_winch_007" path="loud_you_got_the_parts_good_start_building_that_winch_4.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="start_the_winch">
+					<sound id="start_the_winch_001" path="loud_fire_up_the_winch_1.ogg" volume="1"/>
+					<sound id="start_the_winch_002" path="loud_fire_up_the_winch_2.ogg" volume="1"/>
+					<sound id="start_the_winch_003" path="loud_fire_up_the_winch_3.ogg" volume="1"/>
+					<sound id="start_the_winch_004" path="loud_fire_up_the_winch_4.ogg" volume="1"/>
+					<sound id="start_the_winch_005" path="loud_now_start_the_winch.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="take_the_diamond">
+					<sound id="take_the_diamond_001" path="loud_get_the_diamond_out_of_there_1.ogg" volume="1"/>
+					<sound id="take_the_diamond_002" path="loud_get_the_diamond_out_of_there_2.ogg" volume="1"/>
+					<sound id="take_the_diamond_003" path="loud_get_the_diamond_out_of_there_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="use_the_hook_on_the_vault_door">
+					<sound id="use_the_hook_on_the_vault_door_001" path="loud_get_that_hook_on_the_door_lets_pull_that_thing_down.ogg" volume="1"/>
+					<sound id="use_the_hook_on_the_vault_door_002" path="loud_hook_the_winch_onto_the_door_and_get_it_down_1.ogg" volume="1"/>
+					<sound id="use_the_hook_on_the_vault_door_003" path="loud_hook_the_winch_onto_the_door_and_get_it_down_2.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="use_the_security_code">
+					<sound id="use_the_security_code_001" path="loud_just_use_that_code_to_open_the_door_1.ogg" volume="1"/>
+					<sound id="use_the_security_code_002" path="loud_just_use_that_code_to_open_the_door_2.ogg" volume="1"/>
+					<sound id="use_the_security_code_003" path="loud_ok_now_use_that_code_on_the_door_1.ogg" volume="1"/>
+					<sound id="use_the_security_code_004" path="loud_ok_now_use_that_code_on_the_door_2.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="wait_for_drill_to_finish">
+					<sound id="wait_for_drill_to_finish_001" path="loud_hold_down_the_fort_and_wait_for_the_drill_to_finish.ogg" volume="1"/>
+					<sound id="wait_for_drill_to_finish_002" path="loud_ok_now_let_that_drill_do_its_job_1.ogg" volume="1"/>
+					<sound id="wait_for_drill_to_finish_003" path="loud_ok_now_let_that_drill_do_its_job_2.ogg" volume="1"/>
+					<sound id="wait_for_drill_to_finish_004" path="loud_ok_now_let_that_drill_do_its_job_3.ogg" volume="1"/>
+					<sound id="wait_for_drill_to_finish_005" path="loud_ok_now_let_that_drill_do_its_job_4.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="wait_for_the_helicopter_to_bring_the_c4">
+					<sound id="wait_for_the_helicopter_to_bring_the_c4_001" path="loud_stay_cool_people_c4s_on_its_way.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_c4_002" path="loud_wait_for_the_helicopter_to_bring_the_c4_1.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_c4_003" path="loud_wait_for_the_helicopter_to_bring_the_c4_2.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_c4_004" path="loud_wait_for_the_helicopter_to_bring_the_c4_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="wait_for_the_helicopter_to_bring_the_drill">
+					<sound id="wait_for_the_helicopter_to_bring_the_drill_001" path="loud_drill_inbound_take_point_1.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_drill_002" path="loud_drill_inbound_take_point_2.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_drill_003" path="loud_drill_inbound_take_point_3.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_drill_004" path="loud_drill_is_on_the_way_guys_sit_tight_1.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_drill_005" path="loud_drill_is_on_the_way_guys_sit_tight_2.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_drill_006" path="loud_wait_for_the_drill_it_should_be_with_you_soon.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="wait_for_the_helicopter_to_bring_the_thermite">
+					<sound id="wait_for_the_helicopter_to_bring_the_thermite_001" path="loud_play_for_time_thermite_on_the_move_1.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_thermite_002" path="loud_play_for_time_thermite_on_the_move_2.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_thermite_003" path="loud_thermite_on_the_move_sit_tight_1.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_thermite_004" path="loud_thermite_on_the_move_sit_tight_2.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_thermite_005" path="loud_thermite_on_the_move_sit_tight_2.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_thermite_006" path="loud_thermite_will_be_with_you_soon_stay_calm_2.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_thermite_007" path="loud_thermite_will_be_with_you_soon_stay_calm_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="wait_for_the_helicopter_to_bring_the_winch_parts">
+					<sound id="wait_for_the_helicopter_to_bring_the_winch_parts_001" path="loud_ok_guys_im_sending_the_winch_parts_stay_cool_1.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_winch_parts_002" path="loud_ok_guys_im_sending_the_winch_parts_stay_cool_2.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_winch_parts_003" path="loud_ok_guys_im_sending_the_winch_parts_stay_cool_3.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_winch_parts_004" path="loud_winch_parts_are_on_the_way_just_a_couple_of_minutes_1.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_winch_parts_005" path="loud_winch_parts_are_on_the_way_just_a_couple_of_minutes_2.ogg" volume="1"/>
+					<sound id="wait_for_the_helicopter_to_bring_the_winch_parts_006" path="loud_winch_parts_are_on_the_way_just_a_couple_of_minutes_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="wait_for_the_plane">
+					<sound id="wait_for_the_plane_001" path="loud_alright_the_planes_gonna_be_there_soon_hold_tight_1.ogg" volume="1"/>
+					<sound id="wait_for_the_plane_002" path="loud_alright_the_planes_gonna_be_there_soon_hold_tight_2.ogg" volume="1"/>
+					<sound id="wait_for_the_plane_003" path="loud_good_the_plane_should_be_there_any_minute_now_1.ogg" volume="1"/>
+					<sound id="wait_for_the_plane_004" path="loud_good_the_plane_should_be_there_any_minute_now_2.ogg" volume="1"/>
+					<sound id="wait_for_the_plane_005" path="loud_good_the_plane_should_be_there_any_minute_now_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="wait_for_the_winch_to_finish">
+					<sound id="wait_for_the_winch_to_finish_001" path="loud_ok_now_we_wait_for_it_to_do_its_thing_1.ogg" volume="1"/>
+					<sound id="wait_for_the_winch_to_finish_002" path="loud_ok_now_we_wait_for_it_to_do_its_thing_2.ogg" volume="1"/>
+					<sound id="wait_for_the_winch_to_finish_003" path="loud_ok_now_we_wait_for_it_to_do_its_thing_3.ogg" volume="1"/>
+					<sound id="wait_for_the_winch_to_finish_004" path="loud_stay_safe_and_wait_for_the_winch_to_finish_1.ogg" volume="1"/>
+					<sound id="wait_for_the_winch_to_finish_005" path="loud_stay_safe_and_wait_for_the_winch_to_finish_2.ogg" volume="1"/>
+					<sound id="wait_for_the_winch_to_finish_006" path="loud_stay_safe_and_wait_for_the_winch_to_finish_3.ogg" volume="1"/>
+				</sounds>
 			</sounds>
+			<sounds directory="stealth">
+				<sounds directory="bypass_the_system">
+					<sound id="stealth_bypass_the_system_001" path="stealth_look_around_for_some_little_boxes_and_hack_them_to_bypass_the_system.ogg" volume="1"/>
+					<sound id="stealth_bypass_the_system_002" path="stealth_youre_looking_for_a_small_box_find_it_and_hack_it.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="enter_the_bank">
+					<sound id="stealth_enter_the_bank_001" path="stealth_keep_calm_and_quiet_and_get_in_there_guys.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="escape_or_get_more_loot">
+					<sound id="stealth_escape_or_get_more_loot_001" path="stealth_okay_weve_got_what_we_came_for_get_out_of_there_or_stick_around_and_get_some_more_loot.ogg" volume="1"/>
+					<sound id="stealth_escape_or_get_more_loot_002" path="stealth_we_got_the_diamond_time_to_head_out,_or_if_you_feel_like_it_get_all_the_other_loot_in_that_vault_1.ogg" volume="1"/>
+					<sound id="stealth_escape_or_get_more_loot_003" path="stealth_we_got_the_diamond_time_to_head_out,_or_if_you_feel_like_it_get_all_the_other_loot_in_that_vault_2.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="find_a_code_to_bypass_the_security_check">
+					<sound id="stealth_find_a_code_to_bypass_the_security_check_001" path="stealth_damn_you_need_a_code_its_gotta_be_around_here_somewhere_go_and_find_it.ogg" volume="1"/>
+					<sound id="stealth_find_a_code_to_bypass_the_security_check_002" path="stealth_damn_you_need_a_code_theres_gotta_be_one_lying_around_somewhere_go_and_find_it_1.ogg" volume="1"/>
+					<sound id="stealth_find_a_code_to_bypass_the_security_check_003" path="stealth_damn_you_need_a_code_theres_gotta_be_one_lying_around_somewhere_go_and_find_it_2.ogg" volume="1"/>
+					<sound id="stealth_find_a_code_to_bypass_the_security_check_004" path="stealth_damn_you_need_a_code_theres_gotta_be_one_lying_around_somewhere_go_and_find_it_3.ogg" volume="1"/>
+					<sound id="stealth_find_a_code_to_bypass_the_security_check_005" path="stealth_damn_you_need_a_code_theres_gotta_be_one_lying_around_somewhere_go_and_find_it_4.ogg" volume="1"/>
+					<sound id="stealth_find_a_code_to_bypass_the_security_check_006" path="stealth_damn_you_need_a_code_theres_gotta_be_one_lying_around_somewhere_go_and_find_it_5.ogg" volume="1"/>
+					<sound id="stealth_find_a_code_to_bypass_the_security_check_007" path="stealth_huh_you_need_a_code_to_open_the_door_maybe_one_of_the_workers_has_them_on_their_desk_somewhere_look_for_it.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="find_a_keycard_for_the_door">
+					<sound id="stealth_find_a_keycard_for_the_door_001" path="stealth_some_worker_must_have_left_his_keycard_somewhere_go_find_it_1.ogg" volume="1"/>
+					<sound id="stealth_find_a_keycard_for_the_door_002" path="stealth_some_worker_must_have_left_his_keycard_somewhere_go_find_it_2.ogg" volume="1"/>
+					<sound id="stealth_find_a_keycard_for_the_door_003" path="stealth_some_worker_must_have_left_his_keycard_somewhere_go_find_it_3.ogg" volume="1"/>
+					<sound id="stealth_find_a_keycard_for_the_door_004" path="stealth_some_worker_must_have_left_his_keycard_somewhere_go_find_it_4.ogg" volume="1"/>
+					<sound id="stealth_find_a_keycard_for_the_door_005" path="stealth_workers_in_this_bank_seem_sleepy_see_if_you_can_find_a_keycard_laying_around_1.ogg" volume="1"/>
+					<sound id="stealth_find_a_keycard_for_the_door_006" path="stealth_workers_in_this_bank_seem_sleepy_see_if_you_can_find_a_keycard_laying_around_2.ogg" volume="1"/>
+					<sound id="stealth_find_a_keycard_for_the_door_007" path="stealth_workers_in_this_bank_seem_sleepy_see_if_you_can_find_a_keycard_laying_around_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="find_the_security_room">
+					<sound id="stealth_find_the_security_room_001" path="stealth_keep_the_noise_down_and_get_into_the_security_room_1.ogg" volume="1"/>
+					<sound id="stealth_find_the_security_room_002" path="stealth_keep_the_noise_down_and_get_into_the_security_room_2.ogg" volume="1"/>
+					<sound id="stealth_find_the_security_room_003" path="stealth_keep_the_noise_down_and_get_into_the_security_room_3.ogg" volume="1"/>
+					<sound id="stealth_find_the_security_room_004" path="stealth_keep_the_noise_down_and_get_into_the_security_room_4.ogg" volume="1"/>
+					<sound id="stealth_find_the_security_room_005" path="stealth_stay_quiet_and_find_that_security_room_1.ogg" volume="1"/>
+					<sound id="stealth_find_the_security_room_006" path="stealth_stay_quiet_and_find_that_security_room_2.ogg" volume="1"/>
+					<sound id="stealth_find_the_security_room_007" path="stealth_stay_quiet_and_find_that_security_room_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="open_the_vault">
+					<sound id="stealth_open_the_vault_001" path="stealth_almost_there_just_open_the_vault_1.ogg" volume="1"/>
+					<sound id="stealth_open_the_vault_002" path="stealth_almost_there_just_open_the_vault_2.ogg" volume="1"/>
+					<sound id="stealth_open_the_vault_003" path="stealth_almost_there_just_open_the_vault_3.ogg" volume="1"/>
+					<sound id="stealth_open_the_vault_004" path="stealth_get_to_that_vault_and_open_it.ogg" volume="1"/>
+					<sound id="stealth_open_the_vault_005" path="stealth_just_open_the_vault_and_get_that_loot_1.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="secure_the_diamond">
+					<sound id="stealth_secure_the_diamond_001" path="stealth_good_you_have_it_the_van_should_be_there_any_second_to_pick_you_up_1.ogg" volume="1"/>
+					<sound id="stealth_secure_the_diamond_002" path="stealth_good_you_have_it_the_van_should_be_there_any_second_to_pick_you_up_2.ogg" volume="1"/>
+					<sound id="stealth_secure_the_diamond_003" path="stealth_good_you_have_it_the_van_should_be_there_any_second_to_pick_you_up_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="take_the_diamond">
+					<sound id="stealth_take_the_diamond_001" path="stealth_almost_there_now_just_take_that_Diamond_1.ogg" volume="1"/>
+					<sound id="stealth_take_the_diamond_002" path="stealth_almost_there_now_just_take_that_Diamond_2.ogg" volume="1"/>
+					<sound id="stealth_take_the_diamond_003" path="stealth_this_is_going_great_just_take_that_diamond_and_we_are_out_of_here_1.ogg" volume="1"/>
+					<sound id="stealth_take_the_diamond_004" path="stealth_this_is_going_great_just_take_that_diamond_and_we_are_out_of_here_2.ogg" volume="1"/>
+					<sound id="stealth_take_the_diamond_005" path="stealth_this_is_going_great_just_take_that_diamond_and_we_are_out_of_here_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="try_another_box">
+					<sound id="stealth_try_another_box_001" path="stealth_damn_that_box_is_no_good_try_another_1.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_002" path="stealth_damn_that_box_is_no_good_try_another_2.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_003" path="stealth_damn_that_box_is_no_good_try_another_3.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_004" path="stealth_damn_that_box_is_no_good_try_another_4.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_005" path="stealth_huh_this_one_is_not_working_try_another_1.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_006" path="stealth_huh_this_one_is_not_working_try_another_2.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_007" path="stealth_huh_this_one_is_not_working_try_another_3.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_008" path="stealth_no_good_this_isnt_the_right_one_try_another.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_mad_001" path="stealth_agh_this_isnt_the_right_one_try_another_1.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_mad_002" path="stealth_agh_this_isnt_the_right_one_try_another_2.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_mad_003" path="stealth_another_dud_check_the_others.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_mad_004" path="stealth_another_dud_try_finding_a_different_one.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_mad_005" path="stealth_another_dud_try_to_find_another_one.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_mad_006" path="stealth_this_one_isnt_working_either_try_another.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_mad_007" path="stealth_this_one_isnt_working_either_try_to_find_another_one.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_sps_001" path="stealth_you_missed_that_one_try_another_1.ogg" volume="1"/>
+					<sound id="stealth_try_another_box_sps_002" path="stealth_you_missed_that_one_try_another_2.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="use_the_keycard_at_the_security_door">
+					<sound id="stealth_use_the_keycard_at_the_security_door_001" path="stealth_use_that_keycard_on_the_security_door_1.ogg" volume="1"/>
+					<sound id="stealth_use_the_keycard_at_the_security_door_002" path="stealth_use_that_keycard_on_the_security_door_2.ogg" volume="1"/>
+					<sound id="stealth_use_the_keycard_at_the_security_door_003" path="stealth_use_that_keycard_on_the_security_door_3.ogg" volume="1"/>
+					<sound id="stealth_use_the_keycard_at_the_security_door_004" path="stealth_you_got_the_keycard_good_now_use_that_on_the_security_door_1.ogg" volume="1"/>
+					<sound id="stealth_use_the_keycard_at_the_security_door_005" path="stealth_you_got_the_keycard_good_now_use_that_on_the_security_door_2.ogg" volume="1"/>
+					<sound id="stealth_use_the_keycard_at_the_security_door_006" path="stealth_you_got_the_keycard_good_now_use_that_on_the_security_door_3.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="use_the_pc">
+					<sound id="stealth_use_the_pc_001" path="stealth_well_you_got_this_far_go_hack_that_pc_next_1.ogg" volume="1"/>
+					<sound id="stealth_use_the_pc_002" path="stealth_well_you_got_this_far_go_hack_that_pc_next_2.ogg" volume="1"/>
+					<sound id="stealth_use_the_pc_003" path="stealth_well_you_got_this_far_go_hack_that_pc_next_3.ogg" volume="1"/>
+					<sound id="stealth_use_the_pc_004" path="stealth_well_you_got_this_far_go_hack_that_pc_next_4.ogg" volume="1"/>
+					<sound id="stealth_use_the_pc_005" path="stealth_youve_made_good_progress_now_get_to_hacking_that_pc_1.ogg" volume="1"/>
+					<sound id="stealth_use_the_pc_006" path="stealth_youve_made_good_progress_now_get_to_hacking_that_pc_2.ogg" volume="1"/>
+					<sound id="stealth_use_the_pc_007" path="stealth_youve_made_good_progress_now_get_to_hacking_that_pc_3.ogg" volume="1"/>
+					<sound id="stealth_use_the_pc_008" path="stealth_youve_made_good_progress_now_get_to_hacking_that_pc_4.ogg" volume="1"/>
+					<sound id="stealth_use_the_pc_009" path="stealth_youve_made_good_progress_now_get_to_hacking_that_pc_5.ogg" volume="1"/>
+				</sounds>
+				<sounds directory="use_the_pc_and_finish_the_hack">
+					<sound id="stealth_use_the_pc_and_finish_the_hack_001" path="stealth_get_to_the_pc_and_finish_the_hack_1.ogg" volume="1"/>
+					<sound id="stealth_use_the_pc_and_finish_the_hack_002" path="stealth_get_to_the_pc_and_finish_the_hack_2.ogg" volume="1"/>
+					<sound id="stealth_use_the_pc_and_finish_the_hack_003" path="stealth_get_to_the_pc_and_finish_the_hack_3.ogg" volume="1"/>
+					<sound id="stealth_use_the_pc_and_finish_the_hack_004" path="stealth_get_to_the_pc_and_finish_the_hack_4.ogg" volume="1"/>
+					<sound id="stealth_use_the_pc_and_finish_the_hack_005" path="stealth_youre_doing_well_guys_just_finish_the_hack_1.ogg" volume="1"/>
+					<sound id="stealth_use_the_pc_and_finish_the_hack_006" path="stealth_youre_doing_well_guys_just_finish_the_hack_2.ogg" volume="1"/>
+					<sound id="stealth_use_the_pc_and_finish_the_hack_007" path="stealth_youre_doing_well_guys_just_finish_the_hack_3.ogg" volume="1"/>
+				</sounds>
+			</sounds>
+			<sound id="end_vo_sound" path="end_vo_sound.ogg" volume="1"/>
 		</sounds>
 	</level>
 	<narrative briefing_event="red_money_briefing" contact="the_chameleon" dlc="custom_heist" id="red_money">

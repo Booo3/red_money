@@ -1,0 +1,66 @@
+<table directory="assets">
+	<add path="units/pd2_dlc_chill/props/chl_prop_shootingrange_target/chl_prop_shootingrange_target" type="unit">
+		<texture path="units/world/props/gym/stn_prop_shootingrange/stn_prop_shootingrange_df" unload="true"/>
+		<texture path="units/world/props/gym/stn_prop_shootingrange/stn_prop_shootingrange_nm" unload="true"/>
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_shootingrange_target/chl_prop_shootingrange_target" unload="true"/>
+		<model path="units/pd2_dlc_chill/props/chl_prop_shootingrange_target/chl_prop_shootingrange_target" unload="true"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_shootingrange_target/chl_prop_shootingrange_target" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_chill/props/chl_prop_workshop_johnwick_target_rails/chl_prop_workshop_johnwick_target_rails_target" unload="true"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_shootingrange_target/chl_prop_shootingrange_target" unload="true"/>
+	</add>
+	<add path="units/world/architecture/secret_stash/props/secret_stash_planks_outline" type="unit">
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_planks_outline" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_planks_outline" unload="true"/>
+		<texture path="units/world/architecture/secret_stash/props_textures/secret_stash_sunray_df" unload="true"/>
+		<texture path="units/payday2/props/ind_prop_alley_fence_planks/ind_prop_alley_fence_planks_df" unload="true"/>
+		<texture path="units/payday2/props/ind_prop_alley_fence_planks/ind_prop_alley_fence_planks_nm" unload="true"/>
+		<texture path="units/world/architecture/secret_stash/props_textures/com_prop_planks_barricade_df" unload="true"/>
+		<texture path="units/world/architecture/secret_stash/props_textures/com_prop_planks_barricade_nm" unload="true"/>
+		<texture path="units/gui/gui_brackets_df" unload="true"/>
+		<texture path="units/gui/plank_indicator_df" unload="true"/>
+		<texture path="units/white_df" unload="true"/>
+		<texture path="units/transparent_op" unload="true"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_planks_outline" unload="true"/>
+		<texture path="effects/textures/opacity_atlas_df" unload="true"/>
+		<unit path="units/world/architecture/secret_stash/props/planks_debris" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/planks_debris" unload="true"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/planks_debris" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<effect load="true" path="effects/particles/dest/stair_dest" unload="true"/>
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_planks_outline" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add path="units/world/architecture/diamondheist/props/diamondheist_roof_suncells_02" type="unit">
+		<material_config path="units/world/architecture/diamondheist/props/diamondheist_roof_01" unload="true"/>
+		<object path="units/world/architecture/diamondheist/props/diamondheist_roof_suncells_02" unload="true"/>
+		<unit path="units/world/architecture/diamondheist/props/diamondheist_roof_suncells_02" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_lxy/props/yacht/sunbed/lxy_prop_ext_sunbed" type="unit">
+		<material_config path="units/pd2_dlc_lxy/props/yacht/sunbed/sunbed" unload="true"/>
+		<object path="units/pd2_dlc_lxy/props/yacht/sunbed/lxy_prop_ext_sunbed" unload="true"/>
+		<unit path="units/pd2_dlc_lxy/props/yacht/sunbed/lxy_prop_ext_sunbed" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_fish/lxy_prop_ext_sunbed_table_01/lxy_prop_ext_sunbed_table_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_ext_sunbed_table_01/lxy_prop_ext_sunbed_table_01" unload="true"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_ext_sunbed_table_01/lxy_prop_ext_sunbed_table_01" unload="true"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_ext_sunbed_table_01/lxy_prop_ext_sunbed_table_01" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_fish/lxy_prop_ext_sunbed_01/lxy_prop_ext_sunbed_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_ext_sunbed_01/lxy_prop_ext_sunbed_01" unload="true"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_ext_sunbed_01/lxy_prop_ext_sunbed_01" unload="true"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_ext_sunbed_01/lxy_prop_ext_sunbed_01" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_chill/props/chl_prop_damage_counter/chl_prop_damage_counter" type="unit">
+		<font path="fonts/font_digital" unload="true"/>
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_damage_counter/chl_prop_damage_counter" unload="true"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_damage_counter/chl_prop_damage_counter" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_chill/props/chl_prop_damage_counter/chl_prop_damage_counter" unload="true"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_damage_counter/chl_prop_damage_counter" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/target_hitbox/target_hitbox" type="unit">
+		<unit path="units/dev_tools/level_tools/target_hitbox/target_hitbox" unload="true"/>
+		<object path="units/dev_tools/level_tools/target_hitbox/target_hitbox" unload="true"/>
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<sequence_manager path="units/dev_tools/level_tools/target_hitbox/target_hitbox" unload="true"/>
+	</add>
+</table>

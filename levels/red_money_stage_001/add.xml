@@ -1961,9 +1961,50 @@
 	<texture path="levels/mods/red_money_stage_001/cube_lights/600162"/>
 	<texture path="levels/mods/red_money_stage_001/cube_lights/600163"/>
 	<add path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box_01" type="unit">
-		<unit path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box_01" unload="true"/>
-		<object path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box_01" unload="true"/>
 		<material_config path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box" unload="true"/>
+		<object path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box_01" unload="true"/>
 		<sequence_manager path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box" unload="true"/>
+		<unit path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box_01" unload="true"/>
+	</add>
+	<add path="units/world/architecture/secret_stash/props/secret_stash_planks_outline" type="unit">
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_planks_outline" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_planks_outline" unload="true"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_planks_outline" unload="true"/>
+		<unit path="units/world/architecture/secret_stash/props/planks_debris" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/planks_debris" unload="true"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/planks_debris" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<effect load="true" path="effects/particles/dest/stair_dest" unload="true"/>
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_planks_outline" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add path="units/payday2/props/gen_prop_plywood/gen_prop_plank_1m" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood" unload="true"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plank_1m" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plank_1m" unload="true"/>
+	</add>
+	<add path="units/payday2/props/gen_prop_plywood/gen_prop_plank_2m" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood" unload="true"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plank_2m" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plank_2m" unload="true"/>
+	</add>
+	<texture path="levels/mods/red_money_stage_001/cube_lights/600121"/>
+	<texture path="levels/mods/red_money_stage_001/cube_lights/600164"/>
+	<add path="units/world/architecture/secret_stash/props/planks_debris" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_planks_outline" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/planks_debris" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/planks_debris" unload="true"/>
+		<unit path="units/world/architecture/secret_stash/props/planks_debris" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/target_hitbox/target_hitbox" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/target_hitbox/target_hitbox" unload="true"/>
+		<sequence_manager path="units/dev_tools/level_tools/target_hitbox/target_hitbox" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/res_ext_apartment/res_ext_debris" type="unit">
+		<unit path="units/payday2/architecture/res_ext_apartment/res_ext_debris" unload="true"/>
+		<object path="units/payday2/architecture/res_ext_apartment/res_ext_debris" unload="true"/>
+		<material_config path="units/payday2/architecture/res_ext_apartment/res_ext_debris" unload="true"/>
 	</add>
 </table>
