@@ -781,7 +781,7 @@
 					<sound id="stealth_find_a_code_to_bypass_the_security_check_004" path="stealth_damn_you_need_a_code_theres_gotta_be_one_lying_around_somewhere_go_and_find_it_3.ogg" volume="1"/>
 					<sound id="stealth_find_a_code_to_bypass_the_security_check_005" path="stealth_damn_you_need_a_code_theres_gotta_be_one_lying_around_somewhere_go_and_find_it_4.ogg" volume="1"/>
 					<sound id="stealth_find_a_code_to_bypass_the_security_check_006" path="stealth_damn_you_need_a_code_theres_gotta_be_one_lying_around_somewhere_go_and_find_it_5.ogg" volume="1"/>
-					<sound id="stealth_find_a_code_to_bypass_the_security_check_007" path="stealth_huh_you_need_a_code_to_open_the_door_maybe_one_of_the_workers_has_them_on_their_desk_somewhere_look_for_it.ogg" volume="1"/>
+					<sound id="stealth_find_a_code_to_bypass_the_security_check_007" path="stealth_maybe_one_of_the_workers_has_them_on_their_desk_somewhere_look_for_it.ogg" volume="1"/>
 				</sounds>
 				<sounds directory="find_a_keycard_for_the_door">
 					<sound id="stealth_find_a_keycard_for_the_door_001" path="stealth_some_worker_must_have_left_his_keycard_somewhere_go_find_it_1.ogg" volume="1"/>
