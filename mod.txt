@@ -1,0 +1,13 @@
+{
+	"name" : "Red Money",
+	"description" : "Custom Heist For Payday 2",
+	"author" : "boo3",
+	"contact" : "https://steamcommunity.com/id/booo3/",
+	"version" : "1.0",
+	"updates" : [
+		{
+			"identifier" : "RedMoney",
+			"host": {"meta": "https://raw.githubusercontent.com/Booo3/updating_mods/main/meta.json"}
+		}
+	]
+}
